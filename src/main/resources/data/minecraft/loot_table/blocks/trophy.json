@@ -1,0 +1,69 @@
+{
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "conditions": [
+            {
+              "block": "minecraft:trophy",
+              "properties": {
+                "type": "gold"
+              },
+              "type": "minecraft:block_state_property"
+            }
+          ],
+          "name": "minecraft:trophy",
+          "type": "minecraft:item",
+          "modifier": {
+            "components": {
+              "minecraft:trophy/type": "gold"
+            },
+            "type": "minecraft:set_components"
+          }
+        },
+        {
+          "conditions": [
+            {
+              "block": "minecraft:trophy",
+              "properties": {
+                "type": "mega_spud"
+              },
+              "type": "minecraft:block_state_property"
+            }
+          ],
+          "name": "minecraft:trophy",
+          "type": "minecraft:item",
+          "modifier": {
+            "components": {
+              "minecraft:trophy/type": "mega_spud"
+            },
+            "type": "minecraft:set_components"
+          }
+        },
+        {
+          "conditions": [
+            {
+              "block": "minecraft:trophy",
+              "properties": {
+                "type": "no_medal"
+              },
+              "type": "minecraft:block_state_property"
+            }
+          ],
+          "name": "minecraft:trophy",
+          "type": "minecraft:item",
+          "modifier": {
+            "components": {
+              "minecraft:trophy/type": "no_medal"
+            },
+            "type": "minecraft:set_components"
+          }
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "minecraft:blocks/trophy",
+  "type": "minecraft:block"
+}

@@ -1,0 +1,40 @@
+{
+  "criteria": {
+    "completed_mine": {
+      "conditions": {
+        "player": {
+          "entity": "this",
+          "predicate": {
+            "minecraft:world_effects": [
+              "minecraft:end"
+            ]
+          },
+          "type": "minecraft:entity_properties"
+        }
+      },
+      "trigger": "minecraft:level_completed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.feats.end_world.description"
+    },
+    "hint": {
+      "translate": "advancements.feats.end_world.description"
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:end_crystal"
+    },
+    "title": {
+      "translate": "advancements.feats.end_world.title"
+    }
+  },
+  "parent": "minecraft:feats/root",
+  "requirements": [
+    [
+      "completed_mine"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

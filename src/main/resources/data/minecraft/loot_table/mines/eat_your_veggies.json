@@ -1,0 +1,22 @@
+{
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "name": "minecraft:trophy",
+          "type": "minecraft:item",
+          "modifier": {
+            "components": {
+              "minecraft:trophy/type": "mega_spud"
+            },
+            "type": "minecraft:set_components"
+          }
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "minecraft:mines/eat_your_veggies",
+  "type": "minecraft:archaeology"
+}

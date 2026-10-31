@@ -1,0 +1,39 @@
+{
+  "criteria": {
+    "completed_event": {
+      "conditions": {
+        "player": {
+          "entity": "this",
+          "predicate": {
+            "minecraft:special_mine": "minecraft:small_but_deadly_boss"
+          },
+          "type": "minecraft:entity_properties"
+        }
+      },
+      "trigger": "minecraft:special_mine_completed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.feats.small_but_deadly.description"
+    },
+    "frame": "challenge",
+    "hint": {
+      "translate": "advancements.feats.small_but_deadly.description"
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:silverfish_spawn_egg"
+    },
+    "title": {
+      "translate": "advancements.feats.small_but_deadly.title"
+    }
+  },
+  "parent": "minecraft:feats/root",
+  "requirements": [
+    [
+      "completed_event"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

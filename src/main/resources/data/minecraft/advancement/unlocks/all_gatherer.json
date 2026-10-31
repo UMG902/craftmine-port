@@ -1,0 +1,624 @@
+{
+  "criteria": {
+    "minecraft:apprentice_shoveler": {
+      "conditions": {
+        "player": {
+          "entity": "this",
+          "predicate": {
+            "minecraft:unlocks": {
+              "locked": [],
+              "unlocked": [
+                "minecraft:apprentice_shoveler"
+              ]
+            }
+          },
+          "type": "minecraft:entity_properties"
+        }
+      },
+      "trigger": "minecraft:special_mine_completed"
+    },
+    "minecraft:campfire": {
+      "conditions": {
+        "player": {
+          "entity": "this",
+          "predicate": {
+            "minecraft:unlocks": {
+              "locked": [],
+              "unlocked": [
+                "minecraft:campfire"
+              ]
+            }
+          },
+          "type": "minecraft:entity_properties"
+        }
+      },
+      "trigger": "minecraft:special_mine_completed"
+    },
+    "minecraft:dirt_connoisseur": {
+      "conditions": {
+        "player": {
+          "entity": "this",
+          "predicate": {
+            "minecraft:unlocks": {
+              "locked": [],
+              "unlocked": [
+                "minecraft:dirt_connoisseur"
+              ]
+            }
+          },
+          "type": "minecraft:entity_properties"
+        }
+      },
+      "trigger": "minecraft:special_mine_completed"
+    },
+    "minecraft:dirt_destroyer_1": {
+      "conditions": {
+        "player": {
+          "entity": "this",
+          "predicate": {
+            "minecraft:unlocks": {
+              "locked": [],
+              "unlocked": [
+                "minecraft:dirt_destroyer_1"
+              ]
+            }
+          },
+          "type": "minecraft:entity_properties"
+        }
+      },
+      "trigger": "minecraft:special_mine_completed"
+    },
+    "minecraft:dirt_destroyer_2": {
+      "conditions": {
+        "player": {
+          "entity": "this",
+          "predicate": {
+            "minecraft:unlocks": {
+              "locked": [],
+              "unlocked": [
+                "minecraft:dirt_destroyer_2"
+              ]
+            }
+          },
+          "type": "minecraft:entity_properties"
+        }
+      },
+      "trigger": "minecraft:special_mine_completed"
+    },
+    "minecraft:dirt_enjoyer_1": {
+      "conditions": {
+        "player": {
+          "entity": "this",
+          "predicate": {
+            "minecraft:unlocks": {
+              "locked": [],
+              "unlocked": [
+                "minecraft:dirt_enjoyer_1"
+              ]
+            }
+          },
+          "type": "minecraft:entity_properties"
+        }
+      },
+      "trigger": "minecraft:special_mine_completed"
+    },
+    "minecraft:dirt_enjoyer_2": {
+      "conditions": {
+        "player": {
+          "entity": "this",
+          "predicate": {
+            "minecraft:unlocks": {
+              "locked": [],
+              "unlocked": [
+                "minecraft:dirt_enjoyer_2"
+              ]
+            }
+          },
+          "type": "minecraft:entity_properties"
+        }
+      },
+      "trigger": "minecraft:special_mine_completed"
+    },
+    "minecraft:dirt_enjoyer_3": {
+      "conditions": {
+        "player": {
+          "entity": "this",
+          "predicate": {
+            "minecraft:unlocks": {
+              "locked": [],
+              "unlocked": [
+                "minecraft:dirt_enjoyer_3"
+              ]
+            }
+          },
+          "type": "minecraft:entity_properties"
+        }
+      },
+      "trigger": "minecraft:special_mine_completed"
+    },
+    "minecraft:expert_shoveler": {
+      "conditions": {
+        "player": {
+          "entity": "this",
+          "predicate": {
+            "minecraft:unlocks": {
+              "locked": [],
+              "unlocked": [
+                "minecraft:expert_shoveler"
+              ]
+            }
+          },
+          "type": "minecraft:entity_properties"
+        }
+      },
+      "trigger": "minecraft:special_mine_completed"
+    },
+    "minecraft:fishing": {
+      "conditions": {
+        "player": {
+          "entity": "this",
+          "predicate": {
+            "minecraft:unlocks": {
+              "locked": [],
+              "unlocked": [
+                "minecraft:fishing"
+              ]
+            }
+          },
+          "type": "minecraft:entity_properties"
+        }
+      },
+      "trigger": "minecraft:special_mine_completed"
+    },
+    "minecraft:fishing_rod": {
+      "conditions": {
+        "player": {
+          "entity": "this",
+          "predicate": {
+            "minecraft:unlocks": {
+              "locked": [],
+              "unlocked": [
+                "minecraft:fishing_rod"
+              ]
+            }
+          },
+          "type": "minecraft:entity_properties"
+        }
+      },
+      "trigger": "minecraft:special_mine_completed"
+    },
+    "minecraft:gatherer": {
+      "conditions": {
+        "player": {
+          "entity": "this",
+          "predicate": {
+            "minecraft:unlocks": {
+              "locked": [],
+              "unlocked": [
+                "minecraft:gatherer"
+              ]
+            }
+          },
+          "type": "minecraft:entity_properties"
+        }
+      },
+      "trigger": "minecraft:special_mine_completed"
+    },
+    "minecraft:hunter": {
+      "conditions": {
+        "player": {
+          "entity": "this",
+          "predicate": {
+            "minecraft:unlocks": {
+              "locked": [],
+              "unlocked": [
+                "minecraft:hunter"
+              ]
+            }
+          },
+          "type": "minecraft:entity_properties"
+        }
+      },
+      "trigger": "minecraft:special_mine_completed"
+    },
+    "minecraft:journeyman_shoveler": {
+      "conditions": {
+        "player": {
+          "entity": "this",
+          "predicate": {
+            "minecraft:unlocks": {
+              "locked": [],
+              "unlocked": [
+                "minecraft:journeyman_shoveler"
+              ]
+            }
+          },
+          "type": "minecraft:entity_properties"
+        }
+      },
+      "trigger": "minecraft:special_mine_completed"
+    },
+    "minecraft:lucky_pick": {
+      "conditions": {
+        "player": {
+          "entity": "this",
+          "predicate": {
+            "minecraft:unlocks": {
+              "locked": [],
+              "unlocked": [
+                "minecraft:lucky_pick"
+              ]
+            }
+          },
+          "type": "minecraft:entity_properties"
+        }
+      },
+      "trigger": "minecraft:special_mine_completed"
+    },
+    "minecraft:master_shoveler": {
+      "conditions": {
+        "player": {
+          "entity": "this",
+          "predicate": {
+            "minecraft:unlocks": {
+              "locked": [],
+              "unlocked": [
+                "minecraft:master_shoveler"
+              ]
+            }
+          },
+          "type": "minecraft:entity_properties"
+        }
+      },
+      "trigger": "minecraft:special_mine_completed"
+    },
+    "minecraft:mining": {
+      "conditions": {
+        "player": {
+          "entity": "this",
+          "predicate": {
+            "minecraft:unlocks": {
+              "locked": [],
+              "unlocked": [
+                "minecraft:mining"
+              ]
+            }
+          },
+          "type": "minecraft:entity_properties"
+        }
+      },
+      "trigger": "minecraft:special_mine_completed"
+    },
+    "minecraft:mining_efficiency": {
+      "conditions": {
+        "player": {
+          "entity": "this",
+          "predicate": {
+            "minecraft:unlocks": {
+              "locked": [],
+              "unlocked": [
+                "minecraft:mining_efficiency"
+              ]
+            }
+          },
+          "type": "minecraft:entity_properties"
+        }
+      },
+      "trigger": "minecraft:special_mine_completed"
+    },
+    "minecraft:mining_efficiency_2": {
+      "conditions": {
+        "player": {
+          "entity": "this",
+          "predicate": {
+            "minecraft:unlocks": {
+              "locked": [],
+              "unlocked": [
+                "minecraft:mining_efficiency_2"
+              ]
+            }
+          },
+          "type": "minecraft:entity_properties"
+        }
+      },
+      "trigger": "minecraft:special_mine_completed"
+    },
+    "minecraft:mining_efficiency_3": {
+      "conditions": {
+        "player": {
+          "entity": "this",
+          "predicate": {
+            "minecraft:unlocks": {
+              "locked": [],
+              "unlocked": [
+                "minecraft:mining_efficiency_3"
+              ]
+            }
+          },
+          "type": "minecraft:entity_properties"
+        }
+      },
+      "trigger": "minecraft:special_mine_completed"
+    },
+    "minecraft:ore_seeker_1": {
+      "conditions": {
+        "player": {
+          "entity": "this",
+          "predicate": {
+            "minecraft:unlocks": {
+              "locked": [],
+              "unlocked": [
+                "minecraft:ore_seeker_1"
+              ]
+            }
+          },
+          "type": "minecraft:entity_properties"
+        }
+      },
+      "trigger": "minecraft:special_mine_completed"
+    },
+    "minecraft:ore_seeker_2": {
+      "conditions": {
+        "player": {
+          "entity": "this",
+          "predicate": {
+            "minecraft:unlocks": {
+              "locked": [],
+              "unlocked": [
+                "minecraft:ore_seeker_2"
+              ]
+            }
+          },
+          "type": "minecraft:entity_properties"
+        }
+      },
+      "trigger": "minecraft:special_mine_completed"
+    },
+    "minecraft:pickup_area_size": {
+      "conditions": {
+        "player": {
+          "entity": "this",
+          "predicate": {
+            "minecraft:unlocks": {
+              "locked": [],
+              "unlocked": [
+                "minecraft:pickup_area_size"
+              ]
+            }
+          },
+          "type": "minecraft:entity_properties"
+        }
+      },
+      "trigger": "minecraft:special_mine_completed"
+    },
+    "minecraft:poseidon": {
+      "conditions": {
+        "player": {
+          "entity": "this",
+          "predicate": {
+            "minecraft:unlocks": {
+              "locked": [],
+              "unlocked": [
+                "minecraft:poseidon"
+              ]
+            }
+          },
+          "type": "minecraft:entity_properties"
+        }
+      },
+      "trigger": "minecraft:special_mine_completed"
+    },
+    "minecraft:rare_earth_specialist": {
+      "conditions": {
+        "player": {
+          "entity": "this",
+          "predicate": {
+            "minecraft:unlocks": {
+              "locked": [],
+              "unlocked": [
+                "minecraft:rare_earth_specialist"
+              ]
+            }
+          },
+          "type": "minecraft:entity_properties"
+        }
+      },
+      "trigger": "minecraft:special_mine_completed"
+    },
+    "minecraft:silky_pick": {
+      "conditions": {
+        "player": {
+          "entity": "this",
+          "predicate": {
+            "minecraft:unlocks": {
+              "locked": [],
+              "unlocked": [
+                "minecraft:silky_pick"
+              ]
+            }
+          },
+          "type": "minecraft:entity_properties"
+        }
+      },
+      "trigger": "minecraft:special_mine_completed"
+    },
+    "minecraft:starter_pick": {
+      "conditions": {
+        "player": {
+          "entity": "this",
+          "predicate": {
+            "minecraft:unlocks": {
+              "locked": [],
+              "unlocked": [
+                "minecraft:starter_pick"
+              ]
+            }
+          },
+          "type": "minecraft:entity_properties"
+        }
+      },
+      "trigger": "minecraft:special_mine_completed"
+    },
+    "minecraft:sub_mining_efficiency": {
+      "conditions": {
+        "player": {
+          "entity": "this",
+          "predicate": {
+            "minecraft:unlocks": {
+              "locked": [],
+              "unlocked": [
+                "minecraft:sub_mining_efficiency"
+              ]
+            }
+          },
+          "type": "minecraft:entity_properties"
+        }
+      },
+      "trigger": "minecraft:special_mine_completed"
+    },
+    "minecraft:trident": {
+      "conditions": {
+        "player": {
+          "entity": "this",
+          "predicate": {
+            "minecraft:unlocks": {
+              "locked": [],
+              "unlocked": [
+                "minecraft:trident"
+              ]
+            }
+          },
+          "type": "minecraft:entity_properties"
+        }
+      },
+      "trigger": "minecraft:special_mine_completed"
+    },
+    "minecraft:you_are_the_campfire": {
+      "conditions": {
+        "player": {
+          "entity": "this",
+          "predicate": {
+            "minecraft:unlocks": {
+              "locked": [],
+              "unlocked": [
+                "minecraft:you_are_the_campfire"
+              ]
+            }
+          },
+          "type": "minecraft:entity_properties"
+        }
+      },
+      "trigger": "minecraft:special_mine_completed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.unlocks.all_gatherer.description"
+    },
+    "frame": "challenge",
+    "hint": {
+      "translate": "advancements.unlocks.all_gatherer.description"
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:sweet_berries"
+    },
+    "title": {
+      "translate": "advancements.unlocks.all_gatherer.title"
+    }
+  },
+  "parent": "minecraft:unlocks/kaizen",
+  "requirements": [
+    [
+      "minecraft:gatherer"
+    ],
+    [
+      "minecraft:pickup_area_size"
+    ],
+    [
+      "minecraft:dirt_enjoyer_1"
+    ],
+    [
+      "minecraft:apprentice_shoveler"
+    ],
+    [
+      "minecraft:journeyman_shoveler"
+    ],
+    [
+      "minecraft:expert_shoveler"
+    ],
+    [
+      "minecraft:master_shoveler"
+    ],
+    [
+      "minecraft:dirt_enjoyer_2"
+    ],
+    [
+      "minecraft:dirt_enjoyer_3"
+    ],
+    [
+      "minecraft:dirt_destroyer_1"
+    ],
+    [
+      "minecraft:dirt_destroyer_2"
+    ],
+    [
+      "minecraft:dirt_connoisseur"
+    ],
+    [
+      "minecraft:hunter"
+    ],
+    [
+      "minecraft:campfire"
+    ],
+    [
+      "minecraft:you_are_the_campfire"
+    ],
+    [
+      "minecraft:mining"
+    ],
+    [
+      "minecraft:sub_mining_efficiency"
+    ],
+    [
+      "minecraft:fishing"
+    ],
+    [
+      "minecraft:fishing_rod"
+    ],
+    [
+      "minecraft:trident"
+    ],
+    [
+      "minecraft:poseidon"
+    ],
+    [
+      "minecraft:mining_efficiency"
+    ],
+    [
+      "minecraft:mining_efficiency_2"
+    ],
+    [
+      "minecraft:mining_efficiency_3"
+    ],
+    [
+      "minecraft:starter_pick"
+    ],
+    [
+      "minecraft:silky_pick"
+    ],
+    [
+      "minecraft:ore_seeker_1"
+    ],
+    [
+      "minecraft:ore_seeker_2"
+    ],
+    [
+      "minecraft:lucky_pick"
+    ],
+    [
+      "minecraft:rare_earth_specialist"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

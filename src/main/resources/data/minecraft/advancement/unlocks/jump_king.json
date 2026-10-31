@@ -1,0 +1,45 @@
+{
+  "criteria": {
+    "player_unlock_bought": {
+      "conditions": {
+        "player": {
+          "entity": "this",
+          "predicate": {
+            "minecraft:unlocks": {
+              "locked": [],
+              "unlocked": [
+                "minecraft:jump_king_10"
+              ]
+            }
+          },
+          "type": "minecraft:entity_properties"
+        }
+      },
+      "trigger": "minecraft:player_unlock_bought"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.unlocks.jump_king.description"
+    },
+    "frame": "challenge",
+    "hidden": true,
+    "hint": {
+      "translate": "advancements.unlocks.jump_king.description"
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:slime_block"
+    },
+    "title": {
+      "translate": "advancements.unlocks.jump_king.title"
+    }
+  },
+  "parent": "minecraft:unlocks/kaizen",
+  "requirements": [
+    [
+      "player_unlock_bought"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

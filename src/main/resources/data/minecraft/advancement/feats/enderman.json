@@ -1,0 +1,39 @@
+{
+  "criteria": {
+    "completed_event": {
+      "conditions": {
+        "player": {
+          "entity": "this",
+          "predicate": {
+            "minecraft:special_mine": "minecraft:enderman_boss"
+          },
+          "type": "minecraft:entity_properties"
+        }
+      },
+      "trigger": "minecraft:special_mine_completed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.feats.enderman.description"
+    },
+    "frame": "challenge",
+    "hint": {
+      "translate": "advancements.feats.enderman.description"
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:ender_pearl"
+    },
+    "title": {
+      "translate": "advancements.feats.enderman.title"
+    }
+  },
+  "parent": "minecraft:feats/root",
+  "requirements": [
+    [
+      "completed_event"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

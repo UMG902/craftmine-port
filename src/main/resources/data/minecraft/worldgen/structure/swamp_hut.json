@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:swamp_hut",
+  "biomes": "#minecraft:has_structure/swamp_hut",
+  "required_exit_type": "none",
+  "spawn_overrides": {
+    "creature": {
+      "bounding_box": "piece",
+      "spawns": [
+        {
+          "type": "minecraft:pet_cat",
+          "weight": 1,
+          "count": 1
+        }
+      ]
+    },
+    "monster": {
+      "bounding_box": "piece",
+      "spawns": [
+        {
+          "type": "minecraft:witch",
+          "weight": 1,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "step": "surface_structures"
+}

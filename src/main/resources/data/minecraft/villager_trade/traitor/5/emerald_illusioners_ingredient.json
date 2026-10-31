@@ -1,0 +1,29 @@
+{
+  "gives": {
+    "id": "minecraft:mine_ingredient",
+    "count": 1,
+    "components": {
+      "minecraft:world_modifiers": {
+        "effects": [
+          "minecraft:illusioners"
+        ],
+        "include_description": true
+      },
+      "minecraft:item_name": {
+        "translate": "item.minecraft.mine_ingredient.desc",
+        "with": [
+          {
+            "translate": "world.effect.illusioners.name"
+          }
+        ]
+      }
+    }
+  },
+  "wants": {
+    "id": "minecraft:emerald",
+    "count": 5
+  },
+  "max_uses": 12,
+  "xp": 5,
+  "reputation_discount": 0.2
+}

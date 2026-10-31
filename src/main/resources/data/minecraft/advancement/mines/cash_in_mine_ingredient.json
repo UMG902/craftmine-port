@@ -1,0 +1,46 @@
+{
+  "criteria": {
+    "cash_in": {
+      "conditions": {
+        "location": {
+          "terms": [
+            {
+              "predicate": {},
+              "type": "minecraft:location_check"
+            },
+            {
+              "predicate": {
+                "items": "minecraft:mine_ingredient"
+              },
+              "type": "minecraft:match_tool"
+            }
+          ],
+          "type": "minecraft:all_of"
+        }
+      },
+      "trigger": "minecraft:inventory_cashed_in"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.mine.cash_in.description"
+    },
+    "hint": {
+      "translate": "advancements.mine.cash_in.description"
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:gold_ingot"
+    },
+    "title": {
+      "translate": "advancements.mine.cash_in.title"
+    }
+  },
+  "parent": "minecraft:mines/get_mine_ingredient",
+  "requirements": [
+    [
+      "cash_in"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

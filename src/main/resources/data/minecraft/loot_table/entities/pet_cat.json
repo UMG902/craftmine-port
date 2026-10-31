@@ -1,0 +1,25 @@
+{
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "name": "minecraft:string",
+          "type": "minecraft:item",
+          "modifier": {
+            "add": false,
+            "count": {
+              "max": 2.0,
+              "min": 0.0,
+              "type": "minecraft:uniform"
+            },
+            "type": "minecraft:set_count"
+          }
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "minecraft:entities/pet_cat",
+  "type": "minecraft:entity"
+}

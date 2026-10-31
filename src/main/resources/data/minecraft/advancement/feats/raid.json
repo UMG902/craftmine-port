@@ -1,0 +1,39 @@
+{
+  "criteria": {
+    "completed_event": {
+      "conditions": {
+        "player": {
+          "entity": "this",
+          "predicate": {
+            "minecraft:special_mine": "minecraft:raid"
+          },
+          "type": "minecraft:entity_properties"
+        }
+      },
+      "trigger": "minecraft:special_mine_completed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.feats.raid.description"
+    },
+    "frame": "challenge",
+    "hint": {
+      "translate": "advancements.feats.raid.description"
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:ominous_bottle"
+    },
+    "title": {
+      "translate": "advancements.feats.raid.title"
+    }
+  },
+  "parent": "minecraft:feats/kill_pillager",
+  "requirements": [
+    [
+      "completed_event"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

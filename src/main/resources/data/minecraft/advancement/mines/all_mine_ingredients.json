@@ -1,0 +1,1727 @@
+{
+  "criteria": {
+    "minecraft:amplified": {
+      "conditions": {
+        "player": {
+          "entity": "this",
+          "predicate": {
+            "minecraft:world_effects": [
+              "minecraft:amplified"
+            ]
+          },
+          "type": "minecraft:entity_properties"
+        }
+      },
+      "trigger": "minecraft:level_completed"
+    },
+    "minecraft:armadillos": {
+      "conditions": {
+        "player": {
+          "entity": "this",
+          "predicate": {
+            "minecraft:world_effects": [
+              "minecraft:armadillos"
+            ]
+          },
+          "type": "minecraft:entity_properties"
+        }
+      },
+      "trigger": "minecraft:level_completed"
+    },
+    "minecraft:axolotls": {
+      "conditions": {
+        "player": {
+          "entity": "this",
+          "predicate": {
+            "minecraft:world_effects": [
+              "minecraft:axolotls"
+            ]
+          },
+          "type": "minecraft:entity_properties"
+        }
+      },
+      "trigger": "minecraft:level_completed"
+    },
+    "minecraft:badlands": {
+      "conditions": {
+        "player": {
+          "entity": "this",
+          "predicate": {
+            "minecraft:world_effects": [
+              "minecraft:badlands"
+            ]
+          },
+          "type": "minecraft:entity_properties"
+        }
+      },
+      "trigger": "minecraft:level_completed"
+    },
+    "minecraft:base_andesite": {
+      "conditions": {
+        "player": {
+          "entity": "this",
+          "predicate": {
+            "minecraft:world_effects": [
+              "minecraft:base_andesite"
+            ]
+          },
+          "type": "minecraft:entity_properties"
+        }
+      },
+      "trigger": "minecraft:level_completed"
+    },
+    "minecraft:base_blackstone": {
+      "conditions": {
+        "player": {
+          "entity": "this",
+          "predicate": {
+            "minecraft:world_effects": [
+              "minecraft:base_blackstone"
+            ]
+          },
+          "type": "minecraft:entity_properties"
+        }
+      },
+      "trigger": "minecraft:level_completed"
+    },
+    "minecraft:base_deepslate": {
+      "conditions": {
+        "player": {
+          "entity": "this",
+          "predicate": {
+            "minecraft:world_effects": [
+              "minecraft:base_deepslate"
+            ]
+          },
+          "type": "minecraft:entity_properties"
+        }
+      },
+      "trigger": "minecraft:level_completed"
+    },
+    "minecraft:base_diorite": {
+      "conditions": {
+        "player": {
+          "entity": "this",
+          "predicate": {
+            "minecraft:world_effects": [
+              "minecraft:base_diorite"
+            ]
+          },
+          "type": "minecraft:entity_properties"
+        }
+      },
+      "trigger": "minecraft:level_completed"
+    },
+    "minecraft:base_end_stone": {
+      "conditions": {
+        "player": {
+          "entity": "this",
+          "predicate": {
+            "minecraft:world_effects": [
+              "minecraft:base_end_stone"
+            ]
+          },
+          "type": "minecraft:entity_properties"
+        }
+      },
+      "trigger": "minecraft:level_completed"
+    },
+    "minecraft:base_granite": {
+      "conditions": {
+        "player": {
+          "entity": "this",
+          "predicate": {
+            "minecraft:world_effects": [
+              "minecraft:base_granite"
+            ]
+          },
+          "type": "minecraft:entity_properties"
+        }
+      },
+      "trigger": "minecraft:level_completed"
+    },
+    "minecraft:base_stone": {
+      "conditions": {
+        "player": {
+          "entity": "this",
+          "predicate": {
+            "minecraft:world_effects": [
+              "minecraft:base_stone"
+            ]
+          },
+          "type": "minecraft:entity_properties"
+        }
+      },
+      "trigger": "minecraft:level_completed"
+    },
+    "minecraft:base_tuff": {
+      "conditions": {
+        "player": {
+          "entity": "this",
+          "predicate": {
+            "minecraft:world_effects": [
+              "minecraft:base_tuff"
+            ]
+          },
+          "type": "minecraft:entity_properties"
+        }
+      },
+      "trigger": "minecraft:level_completed"
+    },
+    "minecraft:bees": {
+      "conditions": {
+        "player": {
+          "entity": "this",
+          "predicate": {
+            "minecraft:world_effects": [
+              "minecraft:bees"
+            ]
+          },
+          "type": "minecraft:entity_properties"
+        }
+      },
+      "trigger": "minecraft:level_completed"
+    },
+    "minecraft:blazes": {
+      "conditions": {
+        "player": {
+          "entity": "this",
+          "predicate": {
+            "minecraft:world_effects": [
+              "minecraft:blazes"
+            ]
+          },
+          "type": "minecraft:entity_properties"
+        }
+      },
+      "trigger": "minecraft:level_completed"
+    },
+    "minecraft:bouncy": {
+      "conditions": {
+        "player": {
+          "entity": "this",
+          "predicate": {
+            "minecraft:world_effects": [
+              "minecraft:bouncy"
+            ]
+          },
+          "type": "minecraft:entity_properties"
+        }
+      },
+      "trigger": "minecraft:level_completed"
+    },
+    "minecraft:breezes": {
+      "conditions": {
+        "player": {
+          "entity": "this",
+          "predicate": {
+            "minecraft:world_effects": [
+              "minecraft:breezes"
+            ]
+          },
+          "type": "minecraft:entity_properties"
+        }
+      },
+      "trigger": "minecraft:level_completed"
+    },
+    "minecraft:camel_husks": {
+      "conditions": {
+        "player": {
+          "entity": "this",
+          "predicate": {
+            "minecraft:world_effects": [
+              "minecraft:camel_husks"
+            ]
+          },
+          "type": "minecraft:entity_properties"
+        }
+      },
+      "trigger": "minecraft:level_completed"
+    },
+    "minecraft:cave_exits": {
+      "conditions": {
+        "player": {
+          "entity": "this",
+          "predicate": {
+            "minecraft:world_effects": [
+              "minecraft:cave_exits"
+            ]
+          },
+          "type": "minecraft:entity_properties"
+        }
+      },
+      "trigger": "minecraft:level_completed"
+    },
+    "minecraft:cave_spiders": {
+      "conditions": {
+        "player": {
+          "entity": "this",
+          "predicate": {
+            "minecraft:world_effects": [
+              "minecraft:cave_spiders"
+            ]
+          },
+          "type": "minecraft:entity_properties"
+        }
+      },
+      "trigger": "minecraft:level_completed"
+    },
+    "minecraft:cave_world": {
+      "conditions": {
+        "player": {
+          "entity": "this",
+          "predicate": {
+            "minecraft:world_effects": [
+              "minecraft:cave_world"
+            ]
+          },
+          "type": "minecraft:entity_properties"
+        }
+      },
+      "trigger": "minecraft:level_completed"
+    },
+    "minecraft:chickens": {
+      "conditions": {
+        "player": {
+          "entity": "this",
+          "predicate": {
+            "minecraft:world_effects": [
+              "minecraft:chickens"
+            ]
+          },
+          "type": "minecraft:entity_properties"
+        }
+      },
+      "trigger": "minecraft:level_completed"
+    },
+    "minecraft:cows": {
+      "conditions": {
+        "player": {
+          "entity": "this",
+          "predicate": {
+            "minecraft:world_effects": [
+              "minecraft:cows"
+            ]
+          },
+          "type": "minecraft:entity_properties"
+        }
+      },
+      "trigger": "minecraft:level_completed"
+    },
+    "minecraft:creepers": {
+      "conditions": {
+        "player": {
+          "entity": "this",
+          "predicate": {
+            "minecraft:world_effects": [
+              "minecraft:creepers"
+            ]
+          },
+          "type": "minecraft:entity_properties"
+        }
+      },
+      "trigger": "minecraft:level_completed"
+    },
+    "minecraft:dark_cave_world": {
+      "conditions": {
+        "player": {
+          "entity": "this",
+          "predicate": {
+            "minecraft:world_effects": [
+              "minecraft:dark_cave_world"
+            ]
+          },
+          "type": "minecraft:entity_properties"
+        }
+      },
+      "trigger": "minecraft:level_completed"
+    },
+    "minecraft:dark_forests": {
+      "conditions": {
+        "player": {
+          "entity": "this",
+          "predicate": {
+            "minecraft:world_effects": [
+              "minecraft:dark_forests"
+            ]
+          },
+          "type": "minecraft:entity_properties"
+        }
+      },
+      "trigger": "minecraft:level_completed"
+    },
+    "minecraft:deep_dark": {
+      "conditions": {
+        "player": {
+          "entity": "this",
+          "predicate": {
+            "minecraft:world_effects": [
+              "minecraft:deep_dark"
+            ]
+          },
+          "type": "minecraft:entity_properties"
+        }
+      },
+      "trigger": "minecraft:level_completed"
+    },
+    "minecraft:desert": {
+      "conditions": {
+        "player": {
+          "entity": "this",
+          "predicate": {
+            "minecraft:world_effects": [
+              "minecraft:desert"
+            ]
+          },
+          "type": "minecraft:entity_properties"
+        }
+      },
+      "trigger": "minecraft:level_completed"
+    },
+    "minecraft:dry_land": {
+      "conditions": {
+        "player": {
+          "entity": "this",
+          "predicate": {
+            "minecraft:world_effects": [
+              "minecraft:dry_land"
+            ]
+          },
+          "type": "minecraft:entity_properties"
+        }
+      },
+      "trigger": "minecraft:level_completed"
+    },
+    "minecraft:end": {
+      "conditions": {
+        "player": {
+          "entity": "this",
+          "predicate": {
+            "minecraft:world_effects": [
+              "minecraft:end"
+            ]
+          },
+          "type": "minecraft:entity_properties"
+        }
+      },
+      "trigger": "minecraft:level_completed"
+    },
+    "minecraft:endermen": {
+      "conditions": {
+        "player": {
+          "entity": "this",
+          "predicate": {
+            "minecraft:world_effects": [
+              "minecraft:endermen"
+            ]
+          },
+          "type": "minecraft:entity_properties"
+        }
+      },
+      "trigger": "minecraft:level_completed"
+    },
+    "minecraft:endermites": {
+      "conditions": {
+        "player": {
+          "entity": "this",
+          "predicate": {
+            "minecraft:world_effects": [
+              "minecraft:endermites"
+            ]
+          },
+          "type": "minecraft:entity_properties"
+        }
+      },
+      "trigger": "minecraft:level_completed"
+    },
+    "minecraft:eternal_lightning": {
+      "conditions": {
+        "player": {
+          "entity": "this",
+          "predicate": {
+            "minecraft:world_effects": [
+              "minecraft:eternal_lightning"
+            ]
+          },
+          "type": "minecraft:entity_properties"
+        }
+      },
+      "trigger": "minecraft:level_completed"
+    },
+    "minecraft:eternal_night": {
+      "conditions": {
+        "player": {
+          "entity": "this",
+          "predicate": {
+            "minecraft:world_effects": [
+              "minecraft:eternal_night"
+            ]
+          },
+          "type": "minecraft:entity_properties"
+        }
+      },
+      "trigger": "minecraft:level_completed"
+    },
+    "minecraft:eternal_rain": {
+      "conditions": {
+        "player": {
+          "entity": "this",
+          "predicate": {
+            "minecraft:world_effects": [
+              "minecraft:eternal_rain"
+            ]
+          },
+          "type": "minecraft:entity_properties"
+        }
+      },
+      "trigger": "minecraft:level_completed"
+    },
+    "minecraft:evokers": {
+      "conditions": {
+        "player": {
+          "entity": "this",
+          "predicate": {
+            "minecraft:world_effects": [
+              "minecraft:evokers"
+            ]
+          },
+          "type": "minecraft:entity_properties"
+        }
+      },
+      "trigger": "minecraft:level_completed"
+    },
+    "minecraft:explosive_traps": {
+      "conditions": {
+        "player": {
+          "entity": "this",
+          "predicate": {
+            "minecraft:world_effects": [
+              "minecraft:explosive_traps"
+            ]
+          },
+          "type": "minecraft:entity_properties"
+        }
+      },
+      "trigger": "minecraft:level_completed"
+    },
+    "minecraft:fish_out_of_water": {
+      "conditions": {
+        "player": {
+          "entity": "this",
+          "predicate": {
+            "minecraft:world_effects": [
+              "minecraft:fish_out_of_water"
+            ]
+          },
+          "type": "minecraft:entity_properties"
+        }
+      },
+      "trigger": "minecraft:level_completed"
+    },
+    "minecraft:floating_islands_world": {
+      "conditions": {
+        "player": {
+          "entity": "this",
+          "predicate": {
+            "minecraft:world_effects": [
+              "minecraft:floating_islands_world"
+            ]
+          },
+          "type": "minecraft:entity_properties"
+        }
+      },
+      "trigger": "minecraft:level_completed"
+    },
+    "minecraft:forests": {
+      "conditions": {
+        "player": {
+          "entity": "this",
+          "predicate": {
+            "minecraft:world_effects": [
+              "minecraft:forests"
+            ]
+          },
+          "type": "minecraft:entity_properties"
+        }
+      },
+      "trigger": "minecraft:level_completed"
+    },
+    "minecraft:foxes": {
+      "conditions": {
+        "player": {
+          "entity": "this",
+          "predicate": {
+            "minecraft:world_effects": [
+              "minecraft:foxes"
+            ]
+          },
+          "type": "minecraft:entity_properties"
+        }
+      },
+      "trigger": "minecraft:level_completed"
+    },
+    "minecraft:frogs": {
+      "conditions": {
+        "player": {
+          "entity": "this",
+          "predicate": {
+            "minecraft:world_effects": [
+              "minecraft:frogs"
+            ]
+          },
+          "type": "minecraft:entity_properties"
+        }
+      },
+      "trigger": "minecraft:level_completed"
+    },
+    "minecraft:ghasts": {
+      "conditions": {
+        "player": {
+          "entity": "this",
+          "predicate": {
+            "minecraft:world_effects": [
+              "minecraft:ghasts"
+            ]
+          },
+          "type": "minecraft:entity_properties"
+        }
+      },
+      "trigger": "minecraft:level_completed"
+    },
+    "minecraft:goats": {
+      "conditions": {
+        "player": {
+          "entity": "this",
+          "predicate": {
+            "minecraft:world_effects": [
+              "minecraft:goats"
+            ]
+          },
+          "type": "minecraft:entity_properties"
+        }
+      },
+      "trigger": "minecraft:level_completed"
+    },
+    "minecraft:grid_world": {
+      "conditions": {
+        "player": {
+          "entity": "this",
+          "predicate": {
+            "minecraft:world_effects": [
+              "minecraft:grid_world"
+            ]
+          },
+          "type": "minecraft:entity_properties"
+        }
+      },
+      "trigger": "minecraft:level_completed"
+    },
+    "minecraft:guardians": {
+      "conditions": {
+        "player": {
+          "entity": "this",
+          "predicate": {
+            "minecraft:world_effects": [
+              "minecraft:guardians"
+            ]
+          },
+          "type": "minecraft:entity_properties"
+        }
+      },
+      "trigger": "minecraft:level_completed"
+    },
+    "minecraft:happy_ghasts": {
+      "conditions": {
+        "player": {
+          "entity": "this",
+          "predicate": {
+            "minecraft:world_effects": [
+              "minecraft:happy_ghasts"
+            ]
+          },
+          "type": "minecraft:entity_properties"
+        }
+      },
+      "trigger": "minecraft:level_completed"
+    },
+    "minecraft:hoglins": {
+      "conditions": {
+        "player": {
+          "entity": "this",
+          "predicate": {
+            "minecraft:world_effects": [
+              "minecraft:hoglins"
+            ]
+          },
+          "type": "minecraft:entity_properties"
+        }
+      },
+      "trigger": "minecraft:level_completed"
+    },
+    "minecraft:ice_spikes": {
+      "conditions": {
+        "player": {
+          "entity": "this",
+          "predicate": {
+            "minecraft:world_effects": [
+              "minecraft:ice_spikes"
+            ]
+          },
+          "type": "minecraft:entity_properties"
+        }
+      },
+      "trigger": "minecraft:level_completed"
+    },
+    "minecraft:icy": {
+      "conditions": {
+        "player": {
+          "entity": "this",
+          "predicate": {
+            "minecraft:world_effects": [
+              "minecraft:icy"
+            ]
+          },
+          "type": "minecraft:entity_properties"
+        }
+      },
+      "trigger": "minecraft:level_completed"
+    },
+    "minecraft:illusioners": {
+      "conditions": {
+        "player": {
+          "entity": "this",
+          "predicate": {
+            "minecraft:world_effects": [
+              "minecraft:illusioners"
+            ]
+          },
+          "type": "minecraft:entity_properties"
+        }
+      },
+      "trigger": "minecraft:level_completed"
+    },
+    "minecraft:insomniacs": {
+      "conditions": {
+        "player": {
+          "entity": "this",
+          "predicate": {
+            "minecraft:world_effects": [
+              "minecraft:insomniacs"
+            ]
+          },
+          "type": "minecraft:entity_properties"
+        }
+      },
+      "trigger": "minecraft:level_completed"
+    },
+    "minecraft:jungles": {
+      "conditions": {
+        "player": {
+          "entity": "this",
+          "predicate": {
+            "minecraft:world_effects": [
+              "minecraft:jungles"
+            ]
+          },
+          "type": "minecraft:entity_properties"
+        }
+      },
+      "trigger": "minecraft:level_completed"
+    },
+    "minecraft:magma_cubes": {
+      "conditions": {
+        "player": {
+          "entity": "this",
+          "predicate": {
+            "minecraft:world_effects": [
+              "minecraft:magma_cubes"
+            ]
+          },
+          "type": "minecraft:entity_properties"
+        }
+      },
+      "trigger": "minecraft:level_completed"
+    },
+    "minecraft:mooshrooms": {
+      "conditions": {
+        "player": {
+          "entity": "this",
+          "predicate": {
+            "minecraft:world_effects": [
+              "minecraft:mooshrooms"
+            ]
+          },
+          "type": "minecraft:entity_properties"
+        }
+      },
+      "trigger": "minecraft:level_completed"
+    },
+    "minecraft:mushroom_fields": {
+      "conditions": {
+        "player": {
+          "entity": "this",
+          "predicate": {
+            "minecraft:world_effects": [
+              "minecraft:mushroom_fields"
+            ]
+          },
+          "type": "minecraft:entity_properties"
+        }
+      },
+      "trigger": "minecraft:level_completed"
+    },
+    "minecraft:nautiluses": {
+      "conditions": {
+        "player": {
+          "entity": "this",
+          "predicate": {
+            "minecraft:world_effects": [
+              "minecraft:nautiluses"
+            ]
+          },
+          "type": "minecraft:entity_properties"
+        }
+      },
+      "trigger": "minecraft:level_completed"
+    },
+    "minecraft:nether_barrens": {
+      "conditions": {
+        "player": {
+          "entity": "this",
+          "predicate": {
+            "minecraft:world_effects": [
+              "minecraft:nether_barrens"
+            ]
+          },
+          "type": "minecraft:entity_properties"
+        }
+      },
+      "trigger": "minecraft:level_completed"
+    },
+    "minecraft:nether_forests": {
+      "conditions": {
+        "player": {
+          "entity": "this",
+          "predicate": {
+            "minecraft:world_effects": [
+              "minecraft:nether_forests"
+            ]
+          },
+          "type": "minecraft:entity_properties"
+        }
+      },
+      "trigger": "minecraft:level_completed"
+    },
+    "minecraft:no_drops": {
+      "conditions": {
+        "player": {
+          "entity": "this",
+          "predicate": {
+            "minecraft:world_effects": [
+              "minecraft:no_drops"
+            ]
+          },
+          "type": "minecraft:entity_properties"
+        }
+      },
+      "trigger": "minecraft:level_completed"
+    },
+    "minecraft:ocelots": {
+      "conditions": {
+        "player": {
+          "entity": "this",
+          "predicate": {
+            "minecraft:world_effects": [
+              "minecraft:ocelots"
+            ]
+          },
+          "type": "minecraft:entity_properties"
+        }
+      },
+      "trigger": "minecraft:level_completed"
+    },
+    "minecraft:one_hp": {
+      "conditions": {
+        "player": {
+          "entity": "this",
+          "predicate": {
+            "minecraft:world_effects": [
+              "minecraft:one_hp"
+            ]
+          },
+          "type": "minecraft:entity_properties"
+        }
+      },
+      "trigger": "minecraft:level_completed"
+    },
+    "minecraft:pandas": {
+      "conditions": {
+        "player": {
+          "entity": "this",
+          "predicate": {
+            "minecraft:world_effects": [
+              "minecraft:pandas"
+            ]
+          },
+          "type": "minecraft:entity_properties"
+        }
+      },
+      "trigger": "minecraft:level_completed"
+    },
+    "minecraft:parcheds": {
+      "conditions": {
+        "player": {
+          "entity": "this",
+          "predicate": {
+            "minecraft:world_effects": [
+              "minecraft:parcheds"
+            ]
+          },
+          "type": "minecraft:entity_properties"
+        }
+      },
+      "trigger": "minecraft:level_completed"
+    },
+    "minecraft:parrots": {
+      "conditions": {
+        "player": {
+          "entity": "this",
+          "predicate": {
+            "minecraft:world_effects": [
+              "minecraft:parrots"
+            ]
+          },
+          "type": "minecraft:entity_properties"
+        }
+      },
+      "trigger": "minecraft:level_completed"
+    },
+    "minecraft:piglins": {
+      "conditions": {
+        "player": {
+          "entity": "this",
+          "predicate": {
+            "minecraft:world_effects": [
+              "minecraft:piglins"
+            ]
+          },
+          "type": "minecraft:entity_properties"
+        }
+      },
+      "trigger": "minecraft:level_completed"
+    },
+    "minecraft:pigs": {
+      "conditions": {
+        "player": {
+          "entity": "this",
+          "predicate": {
+            "minecraft:world_effects": [
+              "minecraft:pigs"
+            ]
+          },
+          "type": "minecraft:entity_properties"
+        }
+      },
+      "trigger": "minecraft:level_completed"
+    },
+    "minecraft:pillagers": {
+      "conditions": {
+        "player": {
+          "entity": "this",
+          "predicate": {
+            "minecraft:world_effects": [
+              "minecraft:pillagers"
+            ]
+          },
+          "type": "minecraft:entity_properties"
+        }
+      },
+      "trigger": "minecraft:level_completed"
+    },
+    "minecraft:plains": {
+      "conditions": {
+        "player": {
+          "entity": "this",
+          "predicate": {
+            "minecraft:world_effects": [
+              "minecraft:plains"
+            ]
+          },
+          "type": "minecraft:entity_properties"
+        }
+      },
+      "trigger": "minecraft:level_completed"
+    },
+    "minecraft:rabbits": {
+      "conditions": {
+        "player": {
+          "entity": "this",
+          "predicate": {
+            "minecraft:world_effects": [
+              "minecraft:rabbits"
+            ]
+          },
+          "type": "minecraft:entity_properties"
+        }
+      },
+      "trigger": "minecraft:level_completed"
+    },
+    "minecraft:rare_surface_exits": {
+      "conditions": {
+        "player": {
+          "entity": "this",
+          "predicate": {
+            "minecraft:world_effects": [
+              "minecraft:rare_surface_exits"
+            ]
+          },
+          "type": "minecraft:entity_properties"
+        }
+      },
+      "trigger": "minecraft:level_completed"
+    },
+    "minecraft:ravagers": {
+      "conditions": {
+        "player": {
+          "entity": "this",
+          "predicate": {
+            "minecraft:world_effects": [
+              "minecraft:ravagers"
+            ]
+          },
+          "type": "minecraft:entity_properties"
+        }
+      },
+      "trigger": "minecraft:level_completed"
+    },
+    "minecraft:savannas": {
+      "conditions": {
+        "player": {
+          "entity": "this",
+          "predicate": {
+            "minecraft:world_effects": [
+              "minecraft:savannas"
+            ]
+          },
+          "type": "minecraft:entity_properties"
+        }
+      },
+      "trigger": "minecraft:level_completed"
+    },
+    "minecraft:shattered_blocks_world": {
+      "conditions": {
+        "player": {
+          "entity": "this",
+          "predicate": {
+            "minecraft:world_effects": [
+              "minecraft:shattered_blocks_world"
+            ]
+          },
+          "type": "minecraft:entity_properties"
+        }
+      },
+      "trigger": "minecraft:level_completed"
+    },
+    "minecraft:sheep": {
+      "conditions": {
+        "player": {
+          "entity": "this",
+          "predicate": {
+            "minecraft:world_effects": [
+              "minecraft:sheep"
+            ]
+          },
+          "type": "minecraft:entity_properties"
+        }
+      },
+      "trigger": "minecraft:level_completed"
+    },
+    "minecraft:shulkers": {
+      "conditions": {
+        "player": {
+          "entity": "this",
+          "predicate": {
+            "minecraft:world_effects": [
+              "minecraft:shulkers"
+            ]
+          },
+          "type": "minecraft:entity_properties"
+        }
+      },
+      "trigger": "minecraft:level_completed"
+    },
+    "minecraft:skeletons": {
+      "conditions": {
+        "player": {
+          "entity": "this",
+          "predicate": {
+            "minecraft:world_effects": [
+              "minecraft:skeletons"
+            ]
+          },
+          "type": "minecraft:entity_properties"
+        }
+      },
+      "trigger": "minecraft:level_completed"
+    },
+    "minecraft:slimes": {
+      "conditions": {
+        "player": {
+          "entity": "this",
+          "predicate": {
+            "minecraft:world_effects": [
+              "minecraft:slimes"
+            ]
+          },
+          "type": "minecraft:entity_properties"
+        }
+      },
+      "trigger": "minecraft:level_completed"
+    },
+    "minecraft:sniffers": {
+      "conditions": {
+        "player": {
+          "entity": "this",
+          "predicate": {
+            "minecraft:world_effects": [
+              "minecraft:sniffers"
+            ]
+          },
+          "type": "minecraft:entity_properties"
+        }
+      },
+      "trigger": "minecraft:level_completed"
+    },
+    "minecraft:snowy": {
+      "conditions": {
+        "player": {
+          "entity": "this",
+          "predicate": {
+            "minecraft:world_effects": [
+              "minecraft:snowy"
+            ]
+          },
+          "type": "minecraft:entity_properties"
+        }
+      },
+      "trigger": "minecraft:level_completed"
+    },
+    "minecraft:soul_link": {
+      "conditions": {
+        "player": {
+          "entity": "this",
+          "predicate": {
+            "minecraft:world_effects": [
+              "minecraft:soul_link"
+            ]
+          },
+          "type": "minecraft:entity_properties"
+        }
+      },
+      "trigger": "minecraft:level_completed"
+    },
+    "minecraft:spiders": {
+      "conditions": {
+        "player": {
+          "entity": "this",
+          "predicate": {
+            "minecraft:world_effects": [
+              "minecraft:spiders"
+            ]
+          },
+          "type": "minecraft:entity_properties"
+        }
+      },
+      "trigger": "minecraft:level_completed"
+    },
+    "minecraft:striders": {
+      "conditions": {
+        "player": {
+          "entity": "this",
+          "predicate": {
+            "minecraft:world_effects": [
+              "minecraft:striders"
+            ]
+          },
+          "type": "minecraft:entity_properties"
+        }
+      },
+      "trigger": "minecraft:level_completed"
+    },
+    "minecraft:sulfur_cubes": {
+      "conditions": {
+        "player": {
+          "entity": "this",
+          "predicate": {
+            "minecraft:world_effects": [
+              "minecraft:sulfur_cubes"
+            ]
+          },
+          "type": "minecraft:entity_properties"
+        }
+      },
+      "trigger": "minecraft:level_completed"
+    },
+    "minecraft:surface_exits": {
+      "conditions": {
+        "player": {
+          "entity": "this",
+          "predicate": {
+            "minecraft:world_effects": [
+              "minecraft:surface_exits"
+            ]
+          },
+          "type": "minecraft:entity_properties"
+        }
+      },
+      "trigger": "minecraft:level_completed"
+    },
+    "minecraft:surface_world": {
+      "conditions": {
+        "player": {
+          "entity": "this",
+          "predicate": {
+            "minecraft:world_effects": [
+              "minecraft:surface_world"
+            ]
+          },
+          "type": "minecraft:entity_properties"
+        }
+      },
+      "trigger": "minecraft:level_completed"
+    },
+    "minecraft:swamps": {
+      "conditions": {
+        "player": {
+          "entity": "this",
+          "predicate": {
+            "minecraft:world_effects": [
+              "minecraft:swamps"
+            ]
+          },
+          "type": "minecraft:entity_properties"
+        }
+      },
+      "trigger": "minecraft:level_completed"
+    },
+    "minecraft:taigas": {
+      "conditions": {
+        "player": {
+          "entity": "this",
+          "predicate": {
+            "minecraft:world_effects": [
+              "minecraft:taigas"
+            ]
+          },
+          "type": "minecraft:entity_properties"
+        }
+      },
+      "trigger": "minecraft:level_completed"
+    },
+    "minecraft:ultrawarm": {
+      "conditions": {
+        "player": {
+          "entity": "this",
+          "predicate": {
+            "minecraft:world_effects": [
+              "minecraft:ultrawarm"
+            ]
+          },
+          "type": "minecraft:entity_properties"
+        }
+      },
+      "trigger": "minecraft:level_completed"
+    },
+    "minecraft:universal_anger": {
+      "conditions": {
+        "player": {
+          "entity": "this",
+          "predicate": {
+            "minecraft:world_effects": [
+              "minecraft:universal_anger"
+            ]
+          },
+          "type": "minecraft:entity_properties"
+        }
+      },
+      "trigger": "minecraft:level_completed"
+    },
+    "minecraft:vindicators": {
+      "conditions": {
+        "player": {
+          "entity": "this",
+          "predicate": {
+            "minecraft:world_effects": [
+              "minecraft:vindicators"
+            ]
+          },
+          "type": "minecraft:entity_properties"
+        }
+      },
+      "trigger": "minecraft:level_completed"
+    },
+    "minecraft:warden_boss_fight": {
+      "conditions": {
+        "player": {
+          "entity": "this",
+          "predicate": {
+            "minecraft:world_effects": [
+              "minecraft:warden_boss_fight"
+            ]
+          },
+          "type": "minecraft:entity_properties"
+        }
+      },
+      "trigger": "minecraft:level_completed"
+    },
+    "minecraft:water_world": {
+      "conditions": {
+        "player": {
+          "entity": "this",
+          "predicate": {
+            "minecraft:world_effects": [
+              "minecraft:water_world"
+            ]
+          },
+          "type": "minecraft:entity_properties"
+        }
+      },
+      "trigger": "minecraft:level_completed"
+    },
+    "minecraft:wednesday_frogs": {
+      "conditions": {
+        "player": {
+          "entity": "this",
+          "predicate": {
+            "minecraft:world_effects": [
+              "minecraft:wednesday_frogs"
+            ]
+          },
+          "type": "minecraft:entity_properties"
+        }
+      },
+      "trigger": "minecraft:level_completed"
+    },
+    "minecraft:witches": {
+      "conditions": {
+        "player": {
+          "entity": "this",
+          "predicate": {
+            "minecraft:world_effects": [
+              "minecraft:witches"
+            ]
+          },
+          "type": "minecraft:entity_properties"
+        }
+      },
+      "trigger": "minecraft:level_completed"
+    },
+    "minecraft:wither_skeletons": {
+      "conditions": {
+        "player": {
+          "entity": "this",
+          "predicate": {
+            "minecraft:world_effects": [
+              "minecraft:wither_skeletons"
+            ]
+          },
+          "type": "minecraft:entity_properties"
+        }
+      },
+      "trigger": "minecraft:level_completed"
+    },
+    "minecraft:zoglins": {
+      "conditions": {
+        "player": {
+          "entity": "this",
+          "predicate": {
+            "minecraft:world_effects": [
+              "minecraft:zoglins"
+            ]
+          },
+          "type": "minecraft:entity_properties"
+        }
+      },
+      "trigger": "minecraft:level_completed"
+    },
+    "minecraft:zombie_horses": {
+      "conditions": {
+        "player": {
+          "entity": "this",
+          "predicate": {
+            "minecraft:world_effects": [
+              "minecraft:zombie_horses"
+            ]
+          },
+          "type": "minecraft:entity_properties"
+        }
+      },
+      "trigger": "minecraft:level_completed"
+    },
+    "minecraft:zombie_nautiluses": {
+      "conditions": {
+        "player": {
+          "entity": "this",
+          "predicate": {
+            "minecraft:world_effects": [
+              "minecraft:zombie_nautiluses"
+            ]
+          },
+          "type": "minecraft:entity_properties"
+        }
+      },
+      "trigger": "minecraft:level_completed"
+    },
+    "minecraft:zombies": {
+      "conditions": {
+        "player": {
+          "entity": "this",
+          "predicate": {
+            "minecraft:world_effects": [
+              "minecraft:zombies"
+            ]
+          },
+          "type": "minecraft:entity_properties"
+        }
+      },
+      "trigger": "minecraft:level_completed"
+    },
+    "minecraft:zombified_piglins": {
+      "conditions": {
+        "player": {
+          "entity": "this",
+          "predicate": {
+            "minecraft:world_effects": [
+              "minecraft:zombified_piglins"
+            ]
+          },
+          "type": "minecraft:entity_properties"
+        }
+      },
+      "trigger": "minecraft:level_completed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.mines.all_mine_ingredients.description"
+    },
+    "frame": "challenge",
+    "hint": {
+      "translate": "advancements.mines.all_mine_ingredients.description"
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:netherite_pickaxe"
+    },
+    "title": {
+      "translate": "advancements.mines.all_mine_ingredients.title"
+    }
+  },
+  "parent": "minecraft:mines/level_completed",
+  "requirements": [
+    [
+      "minecraft:surface_world"
+    ],
+    [
+      "minecraft:floating_islands_world"
+    ],
+    [
+      "minecraft:amplified"
+    ],
+    [
+      "minecraft:cave_world"
+    ],
+    [
+      "minecraft:shattered_blocks_world"
+    ],
+    [
+      "minecraft:grid_world"
+    ],
+    [
+      "minecraft:dark_cave_world"
+    ],
+    [
+      "minecraft:sulfur_cubes"
+    ],
+    [
+      "minecraft:surface_exits"
+    ],
+    [
+      "minecraft:camel_husks"
+    ],
+    [
+      "minecraft:cave_exits"
+    ],
+    [
+      "minecraft:rare_surface_exits"
+    ],
+    [
+      "minecraft:plains"
+    ],
+    [
+      "minecraft:savannas"
+    ],
+    [
+      "minecraft:forests"
+    ],
+    [
+      "minecraft:taigas"
+    ],
+    [
+      "minecraft:jungles"
+    ],
+    [
+      "minecraft:snowy"
+    ],
+    [
+      "minecraft:desert"
+    ],
+    [
+      "minecraft:badlands"
+    ],
+    [
+      "minecraft:swamps"
+    ],
+    [
+      "minecraft:dark_forests"
+    ],
+    [
+      "minecraft:ice_spikes"
+    ],
+    [
+      "minecraft:mushroom_fields"
+    ],
+    [
+      "minecraft:nautiluses"
+    ],
+    [
+      "minecraft:nether_barrens"
+    ],
+    [
+      "minecraft:nether_forests"
+    ],
+    [
+      "minecraft:deep_dark"
+    ],
+    [
+      "minecraft:end"
+    ],
+    [
+      "minecraft:dry_land"
+    ],
+    [
+      "minecraft:water_world"
+    ],
+    [
+      "minecraft:sheep"
+    ],
+    [
+      "minecraft:cows"
+    ],
+    [
+      "minecraft:pigs"
+    ],
+    [
+      "minecraft:chickens"
+    ],
+    [
+      "minecraft:frogs"
+    ],
+    [
+      "minecraft:foxes"
+    ],
+    [
+      "minecraft:goats"
+    ],
+    [
+      "minecraft:ocelots"
+    ],
+    [
+      "minecraft:axolotls"
+    ],
+    [
+      "minecraft:armadillos"
+    ],
+    [
+      "minecraft:mooshrooms"
+    ],
+    [
+      "minecraft:pandas"
+    ],
+    [
+      "minecraft:parcheds"
+    ],
+    [
+      "minecraft:parrots"
+    ],
+    [
+      "minecraft:rabbits"
+    ],
+    [
+      "minecraft:sniffers"
+    ],
+    [
+      "minecraft:striders"
+    ],
+    [
+      "minecraft:zombie_horses"
+    ],
+    [
+      "minecraft:zombie_nautiluses"
+    ],
+    [
+      "minecraft:zombies"
+    ],
+    [
+      "minecraft:skeletons"
+    ],
+    [
+      "minecraft:spiders"
+    ],
+    [
+      "minecraft:cave_spiders"
+    ],
+    [
+      "minecraft:creepers"
+    ],
+    [
+      "minecraft:slimes"
+    ],
+    [
+      "minecraft:endermen"
+    ],
+    [
+      "minecraft:witches"
+    ],
+    [
+      "minecraft:magma_cubes"
+    ],
+    [
+      "minecraft:blazes"
+    ],
+    [
+      "minecraft:breezes"
+    ],
+    [
+      "minecraft:pillagers"
+    ],
+    [
+      "minecraft:vindicators"
+    ],
+    [
+      "minecraft:evokers"
+    ],
+    [
+      "minecraft:ravagers"
+    ],
+    [
+      "minecraft:illusioners"
+    ],
+    [
+      "minecraft:guardians"
+    ],
+    [
+      "minecraft:endermites"
+    ],
+    [
+      "minecraft:shulkers"
+    ],
+    [
+      "minecraft:ghasts"
+    ],
+    [
+      "minecraft:zombified_piglins"
+    ],
+    [
+      "minecraft:piglins"
+    ],
+    [
+      "minecraft:wither_skeletons"
+    ],
+    [
+      "minecraft:bees"
+    ],
+    [
+      "minecraft:happy_ghasts"
+    ],
+    [
+      "minecraft:hoglins"
+    ],
+    [
+      "minecraft:zoglins"
+    ],
+    [
+      "minecraft:icy"
+    ],
+    [
+      "minecraft:bouncy"
+    ],
+    [
+      "minecraft:base_stone"
+    ],
+    [
+      "minecraft:base_blackstone"
+    ],
+    [
+      "minecraft:base_diorite"
+    ],
+    [
+      "minecraft:base_andesite"
+    ],
+    [
+      "minecraft:base_granite"
+    ],
+    [
+      "minecraft:base_tuff"
+    ],
+    [
+      "minecraft:base_deepslate"
+    ],
+    [
+      "minecraft:base_end_stone"
+    ],
+    [
+      "minecraft:one_hp"
+    ],
+    [
+      "minecraft:wednesday_frogs"
+    ],
+    [
+      "minecraft:universal_anger"
+    ],
+    [
+      "minecraft:soul_link"
+    ],
+    [
+      "minecraft:eternal_night"
+    ],
+    [
+      "minecraft:eternal_rain"
+    ],
+    [
+      "minecraft:eternal_lightning"
+    ],
+    [
+      "minecraft:insomniacs"
+    ],
+    [
+      "minecraft:no_drops"
+    ],
+    [
+      "minecraft:ultrawarm"
+    ],
+    [
+      "minecraft:explosive_traps"
+    ],
+    [
+      "minecraft:fish_out_of_water"
+    ],
+    [
+      "minecraft:warden_boss_fight"
+    ]
+  ],
+  "rewards": {
+    "experience": 100
+  },
+  "sends_telemetry_event": true
+}

@@ -1,0 +1,42 @@
+{
+  "criteria": {
+    "complete_level": {
+      "conditions": {
+        "player": {
+          "entity": "this",
+          "predicate": {
+            "minecraft:world_effects": [
+              "minecraft:soul_link"
+            ]
+          },
+          "type": "minecraft:entity_properties"
+        }
+      },
+      "trigger": "minecraft:level_completed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.unlocks.in_it_together.description"
+    },
+    "frame": "challenge",
+    "hidden": true,
+    "hint": {
+      "translate": "advancements.unlocks.in_it_together.description"
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:lead"
+    },
+    "title": {
+      "translate": "advancements.unlocks.in_it_together.title"
+    }
+  },
+  "parent": "minecraft:unlocks/kaizen",
+  "requirements": [
+    [
+      "complete_level"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

@@ -1,0 +1,96 @@
+accessWidener v2 official
+# MinecraftServer internals needed by CraftmineServerHooks (TheGame prepare-levels loop)
+accessible field net/minecraft/server/MinecraftServer nextTickTimeNanos J
+accessible method net/minecraft/server/MinecraftServer waitUntilNextTick ()V
+accessible field net/minecraft/server/MinecraftServer PREPARE_LEVELS_DEFAULT_DELAY_NANOS J
+
+# Biome construction for modified mine biomes (26.3 record ctors are private)
+accessible method net/minecraft/world/level/biome/Biome <init> (Lnet/minecraft/world/level/biome/Biome$ClimateSettings;Lnet/minecraft/world/attribute/EnvironmentAttributeMap;Lnet/minecraft/world/level/biome/BiomeSpecialEffects;Lnet/minecraft/world/level/biome/BiomeGenerationSettings;)V
+accessible method net/minecraft/world/level/biome/Biome$ClimateSettings <init> (ZFLnet/minecraft/world/level/biome/Biome$TemperatureModifier;F)V
+accessible field net/minecraft/world/level/biome/Biome climateSettings Lnet/minecraft/world/level/biome/Biome$ClimateSettings;
+
+# Craftmine fork accesses Level internals from its own classes
+accessible field net/minecraft/world/level/Level random Lnet/minecraft/util/RandomSource;
+accessible field net/minecraft/world/level/Level isClientSide Z
+accessible field net/minecraft/server/level/ServerLevel dragonFight Lnet/minecraft/world/level/dimension/end/EnderDragonFight;
+
+# MenuType has a private (supplier, FeatureFlagSet) ctor in 26.3
+accessible method net/minecraft/world/inventory/MenuType <init> (Lnet/minecraft/world/inventory/MenuType$MenuSupplier;Lnet/minecraft/world/flag/FeatureFlagSet;)V
+
+# TheGame (craftmine's server class) needs the server executor for level creation + reloads
+accessible field net/minecraft/server/MinecraftServer executor Ljava/util/concurrent/Executor;
+
+# End-dragon-battle fork accesses EnderDragonFight internals
+accessible field net/minecraft/world/level/dimension/end/EnderDragonFight exitPortalLocation Lnet/minecraft/core/BlockPos;
+accessible field net/minecraft/world/level/dimension/end/EnderDragonFight origin Lnet/minecraft/core/BlockPos;
+accessible method net/minecraft/world/level/dimension/end/EnderDragonFight spawnExitPortal (Z)V
+accessible method net/minecraft/world/level/dimension/end/EnderDragonFight respawnDragon (Ljava/util/List;)V
+
+# ArmadilloState.CODEC is private in 26.3
+accessible field net/minecraft/world/entity/animal/armadillo/Armadillo$ArmadilloState CODEC Lcom/mojang/serialization/Codec;
+
+# Menu/fork internals
+accessible method net/minecraft/world/entity/player/Player closeContainer ()V
+accessible field net/minecraft/server/level/ServerPlayer containerCounter I
+accessible method net/minecraft/server/level/ServerPlayer nextContainerCounter ()V
+accessible method net/minecraft/server/level/ServerPlayer initMenu (Lnet/minecraft/world/inventory/AbstractContainerMenu;)V
+accessible field net/minecraft/server/level/ServerPlayer lastSentExp I
+
+# MushroomCow.Variant id plumbing is private in 26.3
+accessible method net/minecraft/world/entity/animal/cow/MushroomCow$Variant id ()I
+accessible method net/minecraft/world/entity/animal/cow/MushroomCow$Variant byId (I)Lnet/minecraft/world/entity/animal/cow/MushroomCow$Variant;
+
+# Craftmine noise generation tweaks call the protected overworld router builder
+accessible method net/minecraft/world/level/levelgen/NoiseRouterData overworld (Lnet/minecraft/core/HolderGetter;Lnet/minecraft/world/level/levelgen/OverworldFunctionSet;)Lnet/minecraft/world/level/levelgen/NoiseRouter;
+
+# Shattered Blocks world (ShatteredNoiseRouter): 1.21.5's 4th overworld-router
+# boolean negated the underground density branch; 26.3 made the builder private
+accessible method net/minecraft/world/level/levelgen/NoiseRouterData underground (Lnet/minecraft/core/HolderGetter;Lnet/minecraft/core/HolderGetter;Lnet/minecraft/world/level/levelgen/densityfunction/DensityFunction;)Lnet/minecraft/world/level/levelgen/densityfunction/DensityFunction;
+
+# The sky block is a vanilla TransparentBlock (protected ctor in 26.3)
+accessible method net/minecraft/world/level/block/TransparentBlock <init> (Lnet/minecraft/world/level/block/state/BlockBehaviour$Properties;)V
+
+# MenuType.MenuSupplier is package-private in 26.3; our menus register through it
+accessible class net/minecraft/world/inventory/MenuType$MenuSupplier
+
+# TheGame.adopt reads the server's live datapack resources
+accessible class net/minecraft/server/MinecraftServer$ReloadableResources
+accessible field net/minecraft/server/MinecraftServer resources Lnet/minecraft/server/MinecraftServer$ReloadableResources;
+
+# Registry materialization: rebuild the WORLD layer and install it on the
+# server — the configuration-phase registry sync reads exactly this field
+accessible field net/minecraft/server/MinecraftServer registries Lnet/minecraft/core/LayeredRegistryAccess;
+mutable field net/minecraft/server/MinecraftServer registries Lnet/minecraft/core/LayeredRegistryAccess;
+
+# Client-resync machine reads the network connection behind the play listener
+accessible field net/minecraft/server/network/ServerCommonPacketListenerImpl connection Lnet/minecraft/network/Connection;
+
+# Sky-block pipeline registration: 26.3 keeps the fog snippet and the
+# register method private (SkyBlockPipelines builds minecraft:pipeline/sky_block)
+accessible field net/minecraft/client/renderer/RenderPipelines MATRICES_FOG_SNIPPET Lcom/mojang/renderpearl/api/pipeline/RenderPipeline$Snippet;
+accessible method net/minecraft/client/renderer/RenderPipelines register (Lcom/mojang/renderpearl/api/pipeline/RenderPipeline;)Lcom/mojang/renderpearl/api/pipeline/RenderPipeline;
+
+# Task 42 (mine exits): MineExitStructure re-uses JigsawStructure's state - the
+# class is final and the start-pool fields are private in 26.3
+extendable class net/minecraft/world/level/levelgen/structure/structures/JigsawStructure
+accessible field net/minecraft/world/level/levelgen/structure/structures/JigsawStructure startJigsawName Ljava/util/Optional;
+accessible field net/minecraft/world/level/levelgen/structure/structures/JigsawStructure maxDepth I
+accessible field net/minecraft/world/level/levelgen/structure/structures/JigsawStructure startHeight Lnet/minecraft/world/level/levelgen/heightproviders/HeightProvider;
+accessible field net/minecraft/world/level/levelgen/structure/structures/JigsawStructure useExpansionHack Z
+accessible field net/minecraft/world/level/levelgen/structure/structures/JigsawStructure projectStartToHeightmap Ljava/util/Optional;
+accessible field net/minecraft/world/level/levelgen/structure/structures/JigsawStructure maxDistanceFromCenter Lnet/minecraft/world/level/levelgen/structure/structures/JigsawStructure$MaxDistance;
+accessible field net/minecraft/world/level/levelgen/structure/structures/JigsawStructure poolAliases Ljava/util/List;
+accessible field net/minecraft/world/level/levelgen/structure/structures/JigsawStructure dimensionPadding Lnet/minecraft/world/level/levelgen/structure/pools/DimensionPadding;
+accessible field net/minecraft/world/level/levelgen/structure/structures/JigsawStructure liquidSettings Lnet/minecraft/world/level/levelgen/structure/templatesystem/LiquidSettings;
+
+# Task 46 (stronghold portal room): StrongholdPortalRoomMixin re-dispatches
+# placeBlock after swapping end portal frames -> diamond blocks (snapshot
+# 25w14craftmine behavior); the method is protected on StructurePiece
+accessible method net/minecraft/world/level/levelgen/structure/StructurePiece placeBlock (Lnet/minecraft/world/level/WorldGenLevel;Lnet/minecraft/world/level/block/state/BlockState;IIILnet/minecraft/world/level/levelgen/structure/BoundingBox;)V
+
+# Snapshot asset pack ("bring your own files"): PackRepository.sources is a
+# private final ImmutableSet built in the constructor; MinecraftMixin swaps in
+# an extended copy to register the user's installed 25w14craftmine jar as a
+# built-in client resource pack (same technique fabric-resource-loader uses).
+accessible field net/minecraft/server/packs/repository/PackRepository sources Ljava/util/Set;
+mutable field net/minecraft/server/packs/repository/PackRepository sources Ljava/util/Set;

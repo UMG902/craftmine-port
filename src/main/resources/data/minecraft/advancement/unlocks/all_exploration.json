@@ -1,0 +1,1024 @@
+{
+  "criteria": {
+    "minecraft:amphibian": {
+      "conditions": {
+        "player": {
+          "entity": "this",
+          "predicate": {
+            "minecraft:unlocks": {
+              "locked": [],
+              "unlocked": [
+                "minecraft:amphibian"
+              ]
+            }
+          },
+          "type": "minecraft:entity_properties"
+        }
+      },
+      "trigger": "minecraft:special_mine_completed"
+    },
+    "minecraft:elytra": {
+      "conditions": {
+        "player": {
+          "entity": "this",
+          "predicate": {
+            "minecraft:unlocks": {
+              "locked": [],
+              "unlocked": [
+                "minecraft:elytra"
+              ]
+            }
+          },
+          "type": "minecraft:entity_properties"
+        }
+      },
+      "trigger": "minecraft:special_mine_completed"
+    },
+    "minecraft:ender_pearl_starter": {
+      "conditions": {
+        "player": {
+          "entity": "this",
+          "predicate": {
+            "minecraft:unlocks": {
+              "locked": [],
+              "unlocked": [
+                "minecraft:ender_pearl_starter"
+              ]
+            }
+          },
+          "type": "minecraft:entity_properties"
+        }
+      },
+      "trigger": "minecraft:special_mine_completed"
+    },
+    "minecraft:exploration": {
+      "conditions": {
+        "player": {
+          "entity": "this",
+          "predicate": {
+            "minecraft:unlocks": {
+              "locked": [],
+              "unlocked": [
+                "minecraft:exploration"
+              ]
+            }
+          },
+          "type": "minecraft:entity_properties"
+        }
+      },
+      "trigger": "minecraft:special_mine_completed"
+    },
+    "minecraft:jump_king": {
+      "conditions": {
+        "player": {
+          "entity": "this",
+          "predicate": {
+            "minecraft:unlocks": {
+              "locked": [],
+              "unlocked": [
+                "minecraft:jump_king"
+              ]
+            }
+          },
+          "type": "minecraft:entity_properties"
+        }
+      },
+      "trigger": "minecraft:special_mine_completed"
+    },
+    "minecraft:jump_king_10": {
+      "conditions": {
+        "player": {
+          "entity": "this",
+          "predicate": {
+            "minecraft:unlocks": {
+              "locked": [],
+              "unlocked": [
+                "minecraft:jump_king_10"
+              ]
+            }
+          },
+          "type": "minecraft:entity_properties"
+        }
+      },
+      "trigger": "minecraft:special_mine_completed"
+    },
+    "minecraft:jump_king_2": {
+      "conditions": {
+        "player": {
+          "entity": "this",
+          "predicate": {
+            "minecraft:unlocks": {
+              "locked": [],
+              "unlocked": [
+                "minecraft:jump_king_2"
+              ]
+            }
+          },
+          "type": "minecraft:entity_properties"
+        }
+      },
+      "trigger": "minecraft:special_mine_completed"
+    },
+    "minecraft:jump_king_3": {
+      "conditions": {
+        "player": {
+          "entity": "this",
+          "predicate": {
+            "minecraft:unlocks": {
+              "locked": [],
+              "unlocked": [
+                "minecraft:jump_king_3"
+              ]
+            }
+          },
+          "type": "minecraft:entity_properties"
+        }
+      },
+      "trigger": "minecraft:special_mine_completed"
+    },
+    "minecraft:jump_king_4": {
+      "conditions": {
+        "player": {
+          "entity": "this",
+          "predicate": {
+            "minecraft:unlocks": {
+              "locked": [],
+              "unlocked": [
+                "minecraft:jump_king_4"
+              ]
+            }
+          },
+          "type": "minecraft:entity_properties"
+        }
+      },
+      "trigger": "minecraft:special_mine_completed"
+    },
+    "minecraft:jump_king_5": {
+      "conditions": {
+        "player": {
+          "entity": "this",
+          "predicate": {
+            "minecraft:unlocks": {
+              "locked": [],
+              "unlocked": [
+                "minecraft:jump_king_5"
+              ]
+            }
+          },
+          "type": "minecraft:entity_properties"
+        }
+      },
+      "trigger": "minecraft:special_mine_completed"
+    },
+    "minecraft:jump_king_6": {
+      "conditions": {
+        "player": {
+          "entity": "this",
+          "predicate": {
+            "minecraft:unlocks": {
+              "locked": [],
+              "unlocked": [
+                "minecraft:jump_king_6"
+              ]
+            }
+          },
+          "type": "minecraft:entity_properties"
+        }
+      },
+      "trigger": "minecraft:special_mine_completed"
+    },
+    "minecraft:jump_king_7": {
+      "conditions": {
+        "player": {
+          "entity": "this",
+          "predicate": {
+            "minecraft:unlocks": {
+              "locked": [],
+              "unlocked": [
+                "minecraft:jump_king_7"
+              ]
+            }
+          },
+          "type": "minecraft:entity_properties"
+        }
+      },
+      "trigger": "minecraft:special_mine_completed"
+    },
+    "minecraft:jump_king_8": {
+      "conditions": {
+        "player": {
+          "entity": "this",
+          "predicate": {
+            "minecraft:unlocks": {
+              "locked": [],
+              "unlocked": [
+                "minecraft:jump_king_8"
+              ]
+            }
+          },
+          "type": "minecraft:entity_properties"
+        }
+      },
+      "trigger": "minecraft:special_mine_completed"
+    },
+    "minecraft:jump_king_9": {
+      "conditions": {
+        "player": {
+          "entity": "this",
+          "predicate": {
+            "minecraft:unlocks": {
+              "locked": [],
+              "unlocked": [
+                "minecraft:jump_king_9"
+              ]
+            }
+          },
+          "type": "minecraft:entity_properties"
+        }
+      },
+      "trigger": "minecraft:special_mine_completed"
+    },
+    "minecraft:learning_1": {
+      "conditions": {
+        "player": {
+          "entity": "this",
+          "predicate": {
+            "minecraft:unlocks": {
+              "locked": [],
+              "unlocked": [
+                "minecraft:learning_1"
+              ]
+            }
+          },
+          "type": "minecraft:entity_properties"
+        }
+      },
+      "trigger": "minecraft:special_mine_completed"
+    },
+    "minecraft:learning_10": {
+      "conditions": {
+        "player": {
+          "entity": "this",
+          "predicate": {
+            "minecraft:unlocks": {
+              "locked": [],
+              "unlocked": [
+                "minecraft:learning_10"
+              ]
+            }
+          },
+          "type": "minecraft:entity_properties"
+        }
+      },
+      "trigger": "minecraft:special_mine_completed"
+    },
+    "minecraft:learning_11": {
+      "conditions": {
+        "player": {
+          "entity": "this",
+          "predicate": {
+            "minecraft:unlocks": {
+              "locked": [],
+              "unlocked": [
+                "minecraft:learning_11"
+              ]
+            }
+          },
+          "type": "minecraft:entity_properties"
+        }
+      },
+      "trigger": "minecraft:special_mine_completed"
+    },
+    "minecraft:learning_12": {
+      "conditions": {
+        "player": {
+          "entity": "this",
+          "predicate": {
+            "minecraft:unlocks": {
+              "locked": [],
+              "unlocked": [
+                "minecraft:learning_12"
+              ]
+            }
+          },
+          "type": "minecraft:entity_properties"
+        }
+      },
+      "trigger": "minecraft:special_mine_completed"
+    },
+    "minecraft:learning_13": {
+      "conditions": {
+        "player": {
+          "entity": "this",
+          "predicate": {
+            "minecraft:unlocks": {
+              "locked": [],
+              "unlocked": [
+                "minecraft:learning_13"
+              ]
+            }
+          },
+          "type": "minecraft:entity_properties"
+        }
+      },
+      "trigger": "minecraft:special_mine_completed"
+    },
+    "minecraft:learning_14": {
+      "conditions": {
+        "player": {
+          "entity": "this",
+          "predicate": {
+            "minecraft:unlocks": {
+              "locked": [],
+              "unlocked": [
+                "minecraft:learning_14"
+              ]
+            }
+          },
+          "type": "minecraft:entity_properties"
+        }
+      },
+      "trigger": "minecraft:special_mine_completed"
+    },
+    "minecraft:learning_15": {
+      "conditions": {
+        "player": {
+          "entity": "this",
+          "predicate": {
+            "minecraft:unlocks": {
+              "locked": [],
+              "unlocked": [
+                "minecraft:learning_15"
+              ]
+            }
+          },
+          "type": "minecraft:entity_properties"
+        }
+      },
+      "trigger": "minecraft:special_mine_completed"
+    },
+    "minecraft:learning_16": {
+      "conditions": {
+        "player": {
+          "entity": "this",
+          "predicate": {
+            "minecraft:unlocks": {
+              "locked": [],
+              "unlocked": [
+                "minecraft:learning_16"
+              ]
+            }
+          },
+          "type": "minecraft:entity_properties"
+        }
+      },
+      "trigger": "minecraft:special_mine_completed"
+    },
+    "minecraft:learning_17": {
+      "conditions": {
+        "player": {
+          "entity": "this",
+          "predicate": {
+            "minecraft:unlocks": {
+              "locked": [],
+              "unlocked": [
+                "minecraft:learning_17"
+              ]
+            }
+          },
+          "type": "minecraft:entity_properties"
+        }
+      },
+      "trigger": "minecraft:special_mine_completed"
+    },
+    "minecraft:learning_18": {
+      "conditions": {
+        "player": {
+          "entity": "this",
+          "predicate": {
+            "minecraft:unlocks": {
+              "locked": [],
+              "unlocked": [
+                "minecraft:learning_18"
+              ]
+            }
+          },
+          "type": "minecraft:entity_properties"
+        }
+      },
+      "trigger": "minecraft:special_mine_completed"
+    },
+    "minecraft:learning_19": {
+      "conditions": {
+        "player": {
+          "entity": "this",
+          "predicate": {
+            "minecraft:unlocks": {
+              "locked": [],
+              "unlocked": [
+                "minecraft:learning_19"
+              ]
+            }
+          },
+          "type": "minecraft:entity_properties"
+        }
+      },
+      "trigger": "minecraft:special_mine_completed"
+    },
+    "minecraft:learning_2": {
+      "conditions": {
+        "player": {
+          "entity": "this",
+          "predicate": {
+            "minecraft:unlocks": {
+              "locked": [],
+              "unlocked": [
+                "minecraft:learning_2"
+              ]
+            }
+          },
+          "type": "minecraft:entity_properties"
+        }
+      },
+      "trigger": "minecraft:special_mine_completed"
+    },
+    "minecraft:learning_20": {
+      "conditions": {
+        "player": {
+          "entity": "this",
+          "predicate": {
+            "minecraft:unlocks": {
+              "locked": [],
+              "unlocked": [
+                "minecraft:learning_20"
+              ]
+            }
+          },
+          "type": "minecraft:entity_properties"
+        }
+      },
+      "trigger": "minecraft:special_mine_completed"
+    },
+    "minecraft:learning_3": {
+      "conditions": {
+        "player": {
+          "entity": "this",
+          "predicate": {
+            "minecraft:unlocks": {
+              "locked": [],
+              "unlocked": [
+                "minecraft:learning_3"
+              ]
+            }
+          },
+          "type": "minecraft:entity_properties"
+        }
+      },
+      "trigger": "minecraft:special_mine_completed"
+    },
+    "minecraft:learning_4": {
+      "conditions": {
+        "player": {
+          "entity": "this",
+          "predicate": {
+            "minecraft:unlocks": {
+              "locked": [],
+              "unlocked": [
+                "minecraft:learning_4"
+              ]
+            }
+          },
+          "type": "minecraft:entity_properties"
+        }
+      },
+      "trigger": "minecraft:special_mine_completed"
+    },
+    "minecraft:learning_5": {
+      "conditions": {
+        "player": {
+          "entity": "this",
+          "predicate": {
+            "minecraft:unlocks": {
+              "locked": [],
+              "unlocked": [
+                "minecraft:learning_5"
+              ]
+            }
+          },
+          "type": "minecraft:entity_properties"
+        }
+      },
+      "trigger": "minecraft:special_mine_completed"
+    },
+    "minecraft:learning_6": {
+      "conditions": {
+        "player": {
+          "entity": "this",
+          "predicate": {
+            "minecraft:unlocks": {
+              "locked": [],
+              "unlocked": [
+                "minecraft:learning_6"
+              ]
+            }
+          },
+          "type": "minecraft:entity_properties"
+        }
+      },
+      "trigger": "minecraft:special_mine_completed"
+    },
+    "minecraft:learning_7": {
+      "conditions": {
+        "player": {
+          "entity": "this",
+          "predicate": {
+            "minecraft:unlocks": {
+              "locked": [],
+              "unlocked": [
+                "minecraft:learning_7"
+              ]
+            }
+          },
+          "type": "minecraft:entity_properties"
+        }
+      },
+      "trigger": "minecraft:special_mine_completed"
+    },
+    "minecraft:learning_8": {
+      "conditions": {
+        "player": {
+          "entity": "this",
+          "predicate": {
+            "minecraft:unlocks": {
+              "locked": [],
+              "unlocked": [
+                "minecraft:learning_8"
+              ]
+            }
+          },
+          "type": "minecraft:entity_properties"
+        }
+      },
+      "trigger": "minecraft:special_mine_completed"
+    },
+    "minecraft:learning_9": {
+      "conditions": {
+        "player": {
+          "entity": "this",
+          "predicate": {
+            "minecraft:unlocks": {
+              "locked": [],
+              "unlocked": [
+                "minecraft:learning_9"
+              ]
+            }
+          },
+          "type": "minecraft:entity_properties"
+        }
+      },
+      "trigger": "minecraft:special_mine_completed"
+    },
+    "minecraft:lodestone_exits": {
+      "conditions": {
+        "player": {
+          "entity": "this",
+          "predicate": {
+            "minecraft:unlocks": {
+              "locked": [],
+              "unlocked": [
+                "minecraft:lodestone_exits"
+              ]
+            }
+          },
+          "type": "minecraft:entity_properties"
+        }
+      },
+      "trigger": "minecraft:special_mine_completed"
+    },
+    "minecraft:mega_jump": {
+      "conditions": {
+        "player": {
+          "entity": "this",
+          "predicate": {
+            "minecraft:unlocks": {
+              "locked": [],
+              "unlocked": [
+                "minecraft:mega_jump"
+              ]
+            }
+          },
+          "type": "minecraft:entity_properties"
+        }
+      },
+      "trigger": "minecraft:special_mine_completed"
+    },
+    "minecraft:more_more_pearls": {
+      "conditions": {
+        "player": {
+          "entity": "this",
+          "predicate": {
+            "minecraft:unlocks": {
+              "locked": [],
+              "unlocked": [
+                "minecraft:more_more_pearls"
+              ]
+            }
+          },
+          "type": "minecraft:entity_properties"
+        }
+      },
+      "trigger": "minecraft:special_mine_completed"
+    },
+    "minecraft:more_pearls": {
+      "conditions": {
+        "player": {
+          "entity": "this",
+          "predicate": {
+            "minecraft:unlocks": {
+              "locked": [],
+              "unlocked": [
+                "minecraft:more_pearls"
+              ]
+            }
+          },
+          "type": "minecraft:entity_properties"
+        }
+      },
+      "trigger": "minecraft:special_mine_completed"
+    },
+    "minecraft:movement_boost": {
+      "conditions": {
+        "player": {
+          "entity": "this",
+          "predicate": {
+            "minecraft:unlocks": {
+              "locked": [],
+              "unlocked": [
+                "minecraft:movement_boost"
+              ]
+            }
+          },
+          "type": "minecraft:entity_properties"
+        }
+      },
+      "trigger": "minecraft:special_mine_completed"
+    },
+    "minecraft:pathfinder": {
+      "conditions": {
+        "player": {
+          "entity": "this",
+          "predicate": {
+            "minecraft:unlocks": {
+              "locked": [],
+              "unlocked": [
+                "minecraft:pathfinder"
+              ]
+            }
+          },
+          "type": "minecraft:entity_properties"
+        }
+      },
+      "trigger": "minecraft:special_mine_completed"
+    },
+    "minecraft:rockets": {
+      "conditions": {
+        "player": {
+          "entity": "this",
+          "predicate": {
+            "minecraft:unlocks": {
+              "locked": [],
+              "unlocked": [
+                "minecraft:rockets"
+              ]
+            }
+          },
+          "type": "minecraft:entity_properties"
+        }
+      },
+      "trigger": "minecraft:special_mine_completed"
+    },
+    "minecraft:safe_falling": {
+      "conditions": {
+        "player": {
+          "entity": "this",
+          "predicate": {
+            "minecraft:unlocks": {
+              "locked": [],
+              "unlocked": [
+                "minecraft:safe_falling"
+              ]
+            }
+          },
+          "type": "minecraft:entity_properties"
+        }
+      },
+      "trigger": "minecraft:special_mine_completed"
+    },
+    "minecraft:shazboots": {
+      "conditions": {
+        "player": {
+          "entity": "this",
+          "predicate": {
+            "minecraft:unlocks": {
+              "locked": [],
+              "unlocked": [
+                "minecraft:shazboots"
+              ]
+            }
+          },
+          "type": "minecraft:entity_properties"
+        }
+      },
+      "trigger": "minecraft:special_mine_completed"
+    },
+    "minecraft:sneak_1": {
+      "conditions": {
+        "player": {
+          "entity": "this",
+          "predicate": {
+            "minecraft:unlocks": {
+              "locked": [],
+              "unlocked": [
+                "minecraft:sneak_1"
+              ]
+            }
+          },
+          "type": "minecraft:entity_properties"
+        }
+      },
+      "trigger": "minecraft:special_mine_completed"
+    },
+    "minecraft:sneak_2": {
+      "conditions": {
+        "player": {
+          "entity": "this",
+          "predicate": {
+            "minecraft:unlocks": {
+              "locked": [],
+              "unlocked": [
+                "minecraft:sneak_2"
+              ]
+            }
+          },
+          "type": "minecraft:entity_properties"
+        }
+      },
+      "trigger": "minecraft:special_mine_completed"
+    },
+    "minecraft:speed_1": {
+      "conditions": {
+        "player": {
+          "entity": "this",
+          "predicate": {
+            "minecraft:unlocks": {
+              "locked": [],
+              "unlocked": [
+                "minecraft:speed_1"
+              ]
+            }
+          },
+          "type": "minecraft:entity_properties"
+        }
+      },
+      "trigger": "minecraft:special_mine_completed"
+    },
+    "minecraft:speed_2": {
+      "conditions": {
+        "player": {
+          "entity": "this",
+          "predicate": {
+            "minecraft:unlocks": {
+              "locked": [],
+              "unlocked": [
+                "minecraft:speed_2"
+              ]
+            }
+          },
+          "type": "minecraft:entity_properties"
+        }
+      },
+      "trigger": "minecraft:special_mine_completed"
+    },
+    "minecraft:speed_3": {
+      "conditions": {
+        "player": {
+          "entity": "this",
+          "predicate": {
+            "minecraft:unlocks": {
+              "locked": [],
+              "unlocked": [
+                "minecraft:speed_3"
+              ]
+            }
+          },
+          "type": "minecraft:entity_properties"
+        }
+      },
+      "trigger": "minecraft:special_mine_completed"
+    },
+    "minecraft:starter_compass": {
+      "conditions": {
+        "player": {
+          "entity": "this",
+          "predicate": {
+            "minecraft:unlocks": {
+              "locked": [],
+              "unlocked": [
+                "minecraft:starter_compass"
+              ]
+            }
+          },
+          "type": "minecraft:entity_properties"
+        }
+      },
+      "trigger": "minecraft:special_mine_completed"
+    },
+    "minecraft:wing_guardian_lift_off_to_the_sky": {
+      "conditions": {
+        "player": {
+          "entity": "this",
+          "predicate": {
+            "minecraft:unlocks": {
+              "locked": [],
+              "unlocked": [
+                "minecraft:wing_guardian_lift_off_to_the_sky"
+              ]
+            }
+          },
+          "type": "minecraft:entity_properties"
+        }
+      },
+      "trigger": "minecraft:special_mine_completed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.unlocks.all_exploration.description"
+    },
+    "frame": "challenge",
+    "hint": {
+      "translate": "advancements.unlocks.all_exploration.description"
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:leather_boots"
+    },
+    "title": {
+      "translate": "advancements.unlocks.all_exploration.title"
+    }
+  },
+  "parent": "minecraft:unlocks/sigma_grindset",
+  "requirements": [
+    [
+      "minecraft:exploration"
+    ],
+    [
+      "minecraft:ender_pearl_starter"
+    ],
+    [
+      "minecraft:more_pearls"
+    ],
+    [
+      "minecraft:more_more_pearls"
+    ],
+    [
+      "minecraft:speed_1"
+    ],
+    [
+      "minecraft:amphibian"
+    ],
+    [
+      "minecraft:speed_2"
+    ],
+    [
+      "minecraft:speed_3"
+    ],
+    [
+      "minecraft:shazboots"
+    ],
+    [
+      "minecraft:pathfinder"
+    ],
+    [
+      "minecraft:lodestone_exits"
+    ],
+    [
+      "minecraft:starter_compass"
+    ],
+    [
+      "minecraft:sneak_1"
+    ],
+    [
+      "minecraft:sneak_2"
+    ],
+    [
+      "minecraft:movement_boost"
+    ],
+    [
+      "minecraft:wing_guardian_lift_off_to_the_sky"
+    ],
+    [
+      "minecraft:learning_1"
+    ],
+    [
+      "minecraft:learning_2"
+    ],
+    [
+      "minecraft:learning_3"
+    ],
+    [
+      "minecraft:learning_4"
+    ],
+    [
+      "minecraft:learning_5"
+    ],
+    [
+      "minecraft:learning_6"
+    ],
+    [
+      "minecraft:learning_7"
+    ],
+    [
+      "minecraft:learning_8"
+    ],
+    [
+      "minecraft:learning_9"
+    ],
+    [
+      "minecraft:learning_10"
+    ],
+    [
+      "minecraft:learning_11"
+    ],
+    [
+      "minecraft:learning_12"
+    ],
+    [
+      "minecraft:learning_13"
+    ],
+    [
+      "minecraft:learning_14"
+    ],
+    [
+      "minecraft:learning_15"
+    ],
+    [
+      "minecraft:learning_16"
+    ],
+    [
+      "minecraft:learning_17"
+    ],
+    [
+      "minecraft:learning_18"
+    ],
+    [
+      "minecraft:learning_19"
+    ],
+    [
+      "minecraft:learning_20"
+    ],
+    [
+      "minecraft:jump_king"
+    ],
+    [
+      "minecraft:mega_jump"
+    ],
+    [
+      "minecraft:safe_falling"
+    ],
+    [
+      "minecraft:jump_king_2"
+    ],
+    [
+      "minecraft:jump_king_3"
+    ],
+    [
+      "minecraft:jump_king_4"
+    ],
+    [
+      "minecraft:jump_king_5"
+    ],
+    [
+      "minecraft:jump_king_6"
+    ],
+    [
+      "minecraft:jump_king_7"
+    ],
+    [
+      "minecraft:jump_king_8"
+    ],
+    [
+      "minecraft:jump_king_9"
+    ],
+    [
+      "minecraft:jump_king_10"
+    ],
+    [
+      "minecraft:elytra"
+    ],
+    [
+      "minecraft:rockets"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

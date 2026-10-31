@@ -1,0 +1,284 @@
+{
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "name": "minecraft:shimmering_key",
+          "type": "minecraft:item",
+          "weight": 2,
+          "modifier": {
+            "components": {
+              "minecraft:instant_room": {
+                "structure": "minecraft:barrels"
+              }
+            },
+            "type": "minecraft:set_components"
+          }
+        },
+        {
+          "name": "minecraft:shimmering_key",
+          "type": "minecraft:item",
+          "weight": 2,
+          "modifier": {
+            "components": {
+              "minecraft:instant_room": {
+                "structure": "minecraft:hanging"
+              }
+            },
+            "type": "minecraft:set_components"
+          }
+        },
+        {
+          "name": "minecraft:shimmering_key",
+          "type": "minecraft:item",
+          "weight": 2,
+          "modifier": {
+            "components": {
+              "minecraft:instant_room": {
+                "structure": "minecraft:corridor_simple"
+              }
+            },
+            "type": "minecraft:set_components"
+          }
+        },
+        {
+          "name": "minecraft:shimmering_key",
+          "type": "minecraft:item",
+          "weight": 2,
+          "modifier": {
+            "components": {
+              "minecraft:instant_room": {
+                "structure": "minecraft:fountain"
+              }
+            },
+            "type": "minecraft:set_components"
+          }
+        },
+        {
+          "name": "minecraft:shimmering_key",
+          "type": "minecraft:item",
+          "weight": 2,
+          "modifier": {
+            "components": {
+              "minecraft:instant_room": {
+                "structure": "minecraft:storage1"
+              }
+            },
+            "type": "minecraft:set_components"
+          }
+        },
+        {
+          "name": "minecraft:shimmering_key",
+          "type": "minecraft:item",
+          "weight": 2,
+          "modifier": {
+            "components": {
+              "minecraft:instant_room": {
+                "structure": "minecraft:storage2"
+              }
+            },
+            "type": "minecraft:set_components"
+          }
+        },
+        {
+          "name": "minecraft:shimmering_key",
+          "type": "minecraft:item",
+          "weight": 2,
+          "modifier": {
+            "components": {
+              "minecraft:instant_room": {
+                "structure": "minecraft:tree"
+              }
+            },
+            "type": "minecraft:set_components"
+          }
+        },
+        {
+          "name": "minecraft:shimmering_key",
+          "type": "minecraft:item",
+          "weight": 2,
+          "modifier": {
+            "components": {
+              "minecraft:instant_room": {
+                "structure": "minecraft:carpet"
+              }
+            },
+            "type": "minecraft:set_components"
+          }
+        },
+        {
+          "name": "minecraft:shimmering_key",
+          "type": "minecraft:item",
+          "weight": 2,
+          "modifier": {
+            "components": {
+              "minecraft:instant_room": {
+                "structure": "minecraft:grassy_h"
+              }
+            },
+            "type": "minecraft:set_components"
+          }
+        },
+        {
+          "name": "minecraft:shimmering_key",
+          "type": "minecraft:item",
+          "weight": 2,
+          "modifier": {
+            "components": {
+              "minecraft:instant_room": {
+                "structure": "minecraft:sugar_h"
+              }
+            },
+            "type": "minecraft:set_components"
+          }
+        },
+        {
+          "name": "minecraft:shimmering_key",
+          "type": "minecraft:item",
+          "weight": 2,
+          "modifier": {
+            "components": {
+              "minecraft:instant_room": {
+                "structure": "minecraft:wheat_h"
+              }
+            },
+            "type": "minecraft:set_components"
+          }
+        },
+        {
+          "name": "minecraft:shimmering_key",
+          "type": "minecraft:item",
+          "weight": 2,
+          "modifier": {
+            "components": {
+              "minecraft:instant_room": {
+                "structure": "minecraft:house"
+              }
+            },
+            "type": "minecraft:set_components"
+          }
+        },
+        {
+          "name": "minecraft:shimmering_key",
+          "type": "minecraft:item",
+          "weight": 2,
+          "modifier": {
+            "components": {
+              "minecraft:instant_room": {
+                "structure": "minecraft:pool"
+              }
+            },
+            "type": "minecraft:set_components"
+          }
+        },
+        {
+          "name": "minecraft:shimmering_key",
+          "type": "minecraft:item",
+          "weight": 2,
+          "modifier": {
+            "components": {
+              "minecraft:instant_room": {
+                "structure": "minecraft:ship"
+              }
+            },
+            "type": "minecraft:set_components"
+          }
+        },
+        {
+          "name": "minecraft:shimmering_key",
+          "type": "minecraft:item",
+          "weight": 2,
+          "modifier": {
+            "components": {
+              "minecraft:instant_room": {
+                "structure": "minecraft:stairs"
+              }
+            },
+            "type": "minecraft:set_components"
+          }
+        },
+        {
+          "name": "minecraft:shimmering_key",
+          "type": "minecraft:item",
+          "weight": 2,
+          "modifier": {
+            "components": {
+              "minecraft:instant_room": {
+                "structure": "minecraft:trophy"
+              }
+            },
+            "type": "minecraft:set_components"
+          }
+        },
+        {
+          "name": "minecraft:shimmering_key",
+          "type": "minecraft:item",
+          "weight": 2,
+          "modifier": {
+            "components": {
+              "minecraft:instant_room": {
+                "structure": "minecraft:tunnel"
+              }
+            },
+            "type": "minecraft:set_components"
+          }
+        },
+        {
+          "name": "minecraft:shimmering_key",
+          "type": "minecraft:item",
+          "weight": 2,
+          "modifier": {
+            "components": {
+              "minecraft:instant_room": {
+                "structure": "minecraft:useless"
+              }
+            },
+            "type": "minecraft:set_components"
+          }
+        },
+        {
+          "name": "minecraft:shimmering_key",
+          "type": "minecraft:item",
+          "weight": 2,
+          "modifier": {
+            "components": {
+              "minecraft:instant_room": {
+                "structure": "minecraft:workshop"
+              }
+            },
+            "type": "minecraft:set_components"
+          }
+        },
+        {
+          "name": "minecraft:shimmering_key",
+          "type": "minecraft:item",
+          "weight": 2,
+          "modifier": {
+            "components": {
+              "minecraft:instant_room": {
+                "structure": "minecraft:boiler"
+              }
+            },
+            "type": "minecraft:set_components"
+          }
+        },
+        {
+          "name": "minecraft:shimmering_key",
+          "type": "minecraft:item",
+          "modifier": {
+            "components": {
+              "minecraft:instant_room": {
+                "structure": "minecraft:labyrinth"
+              }
+            },
+            "type": "minecraft:set_components"
+          }
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "minecraft:gameplay/room_rewards",
+  "type": "minecraft:hub_reward"
+}

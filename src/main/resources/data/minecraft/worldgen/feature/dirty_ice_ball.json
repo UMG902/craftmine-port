@@ -1,0 +1,6 @@
+{
+  "type": "minecraft:place_template",
+  "template": [
+    "minecraft:mines/dirty_ice_ball"
+  ]
+}

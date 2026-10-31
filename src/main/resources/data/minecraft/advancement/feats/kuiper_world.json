@@ -1,0 +1,42 @@
+{
+  "criteria": {
+    "completed_event": {
+      "conditions": {
+        "player": {
+          "entity": "this",
+          "predicate": {
+            "minecraft:special_mine": "minecraft:kuiper_belt"
+          },
+          "type": "minecraft:entity_properties"
+        }
+      },
+      "trigger": "minecraft:special_mine_completed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.feats.kuiper_world.description"
+    },
+    "frame": "challenge",
+    "hint": {
+      "translate": "advancements.feats.kuiper_world.description"
+    },
+    "icon": {
+      "components": {
+        "minecraft:item_model": "minecraft:kuiper_world"
+      },
+      "count": 1,
+      "id": "minecraft:mine"
+    },
+    "title": {
+      "translate": "advancements.feats.kuiper_world.title"
+    }
+  },
+  "parent": "minecraft:feats/root",
+  "requirements": [
+    [
+      "completed_event"
+    ]
+  ],
+  "sends_telemetry_event": true
+}
