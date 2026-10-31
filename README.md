@@ -6,6 +6,8 @@ Craft your own mines from ingredients in the Mine Crafter, mix ~110 world effect
 
 > mostly vibe coded, but human tested
 
+> Requires 25w14craftmine to be installed to work
+
 ## Download
 
 The Modrinth page is under review — the download link will be added here once it is approved.
