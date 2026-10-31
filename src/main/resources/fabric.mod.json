@@ -7,7 +7,7 @@
   "authors": [
     "craftmine-port contributors"
   ],
-  "license": "LicenseRef-Craftmine-1.0",
+  "license": "LicenseRef-CRAFTMINE-PORT-1.0",
   "icon": "assets/craftmine/icon.png",
   "environment": "*",
   "entrypoints": {
