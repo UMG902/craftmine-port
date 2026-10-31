@@ -19,7 +19,7 @@ The Modrinth page is under review — the download link will be added here once 
 
 ## Fixes over the original snapshot
 
-Includes the fix pack from [BugMine](https://github.com/Mikarific/BugMine) by Mikarific (MIT) see THIRD_PARTY_NOTICES.md, always on:
+Includes the fix pack from [BugMine](https://github.com/Mikarific/BugMine) by Mikarific (MIT see THIRD_PARTY_NOTICES.md), always on:
 
 - vanilla biome tags are written into crafted mines, so structures spawn as intended and the Dry Land ingredient works
 - no more client freeze / softlock from Ctrl+Q, throwing or hotbar-swapping ingredients out of the Mine Crafter
