@@ -28,8 +28,6 @@ Includes the fix pack from [BugMine](https://github.com/Mikarific/BugMine) by Mi
 - the dragon fire unlock is obtainable through the dragon's breath cloud, not only direct fireball hits
 - soul link is usable when your singleplayer world is open to LAN
 
-Plus port-specific fixes: hub inventory and unlock persistence, boss bar cleanup, eternal night lighting, real desert and nether biomes in mines, spawn-platform border deaths, the special-mine menu crash, the hub dev-mode sky, and more.
-
 ## Building from source
 
 Requirements: **JDK 25**. Then:
