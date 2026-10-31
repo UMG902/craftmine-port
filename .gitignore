@@ -1,0 +1,24 @@
+# Gradle
+.gradle/
+build/
+
+# IDEs
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+.settings/
+.classpath
+.project
+bin/
+out/
+
+# Game runs & logs
+run/
+logs/
+*.log
+
+# OS junk
+.DS_Store
+Thumbs.db
