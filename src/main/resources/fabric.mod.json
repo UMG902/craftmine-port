@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "id": "craftmine",
   "version": "1.0.0",
-  "name": "Craftmine",
+  "name": "Craftmine Port",
   "description": "Reimplements the gameplay of the April Fools' 'Craftmine' snapshot (25w14craftmine) on modern Minecraft - craft your own mines, unlock upgrades and adopt pets. Unofficial fan project, not affiliated with Mojang Studios or Microsoft.",
   "authors": [
     "craftmine-port contributors"
