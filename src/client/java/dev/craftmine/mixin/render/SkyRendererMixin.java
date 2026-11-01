@@ -49,6 +49,7 @@ import org.joml.Matrix4f;
 import org.joml.Matrix4fStack;
 import org.joml.Vector3f;
 import org.joml.Vector4f;
+import org.joml.Vector4fc;
 import org.spongepowered.asm.mixin.Final;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.Shadow;
@@ -252,8 +253,32 @@ public abstract class SkyRendererMixin {
         RenderSystem.setShaderFog(fogSlice);
         GpuTextureView colorTextureView = this.renderTarget.getColorTextureView();
         GpuTextureView depthTextureView = this.renderTarget.getDepthTextureView();
+        // Task 33: the fork's 1.21.5 sky pass CLEARED ITS TARGET BLACK before
+        // drawing the glyphs for sky_type "code" - the "Dev Mode" rain always
+        // sat on pure black, its dark runner-tail pixels invisible (black on
+        // black). That sky lives in the HUB: the overworld is the snapshot's
+        // default code-sky level (the SkyDefaults fallback and the Dimension
+        // Control pick both resolve CodeSky there; mine levels never carry a
+        // code sky - SkyDefaults resolves them to the overworld sky and the
+        // per-level SkyData is only ever written by the hub's control). 26.3
+        // has no per-sky-type clear, so this pass inherited whatever the
+        // vanilla clear pass had painted - the atmospheric fog mix
+        // (AtmosphericFogEnvironment: FOG_COLOR/SKY_COLOR blend + sunrise
+        // factor + weather darken + the client's thunder-flash layer). The
+        // hub's own chain resolves black (attribute-less overworld type;
+        // hub.json lost its visual/sky_color in batch AJ), but any transient
+        // upstream supplier that is not exactly black bleeds through behind
+        // the TRANSLUCENT rain walls and makes code.png's dark pixels read as
+        // black glyphs (user regression report, on the hub). Clearing this
+        // pass to opaque black is the direct 26.3 equivalent of the fork's
+        // black target, for every code-sky level, state-agnostic.
+        // Cube/panorama skies keep the inherited background: their own
+        // geometry covers it.
+        Optional<Vector4fc> clearColor = sky instanceof DimensionSpecialEffects.CodeSky
+            ? Optional.of(new Vector4f(0.0f, 0.0f, 0.0f, 1.0f))
+            : Optional.empty();
         RenderPass renderPass = RenderSystem.getDevice().createCommandEncoder()
-            .createRenderPass(() -> "Craftmine sky", colorTextureView, Optional.empty(), depthTextureView, OptionalDouble.empty());
+            .createRenderPass(() -> "Craftmine sky", colorTextureView, clearColor, depthTextureView, OptionalDouble.empty());
         RenderSystem.bindDefaultUniforms(renderPass);
         try {
             if (sky instanceof DimensionSpecialEffects.CubeSky cubeSky) {

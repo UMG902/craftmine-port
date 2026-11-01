@@ -88,43 +88,41 @@
   "temperature": 0.9,
   "attributes": {
     "minecraft:gameplay/natural_mob_spawns": {
-      "spawns_by_category": {
-        "ambient": [
-          {
-            "type": "minecraft:bat",
-            "weight": 10,
-            "count": 8
-          }
-        ],
-        "axolotls": [],
-        "creature": [
-          {
-            "type": "minecraft:mooshroom",
-            "weight": 8,
-            "count": {
-              "type": "minecraft:uniform",
-              "min_inclusive": 4,
-              "max_inclusive": 8
+      "argument": {
+        "spawn_costs": {},
+        "spawns_by_category": {
+          "ambient": [
+            {
+              "type": "minecraft:bat",
+              "count": 8,
+              "weight": 10
             }
-          }
-        ],
-        "misc": [],
-        "monster": [],
-        "underground_water_creature": [
-          {
-            "type": "minecraft:glow_squid",
-            "weight": 10,
-            "count": {
-              "type": "minecraft:uniform",
-              "min_inclusive": 4,
-              "max_inclusive": 6
+          ],
+          "creature": [
+            {
+              "type": "minecraft:mooshroom",
+              "count": {
+                "type": "minecraft:uniform",
+                "max_inclusive": 8,
+                "min_inclusive": 4
+              },
+              "weight": 8
             }
-          }
-        ],
-        "water_ambient": [],
-        "water_creature": []
+          ],
+          "underground_water_creature": [
+            {
+              "type": "minecraft:glow_squid",
+              "count": {
+                "type": "minecraft:uniform",
+                "max_inclusive": 6,
+                "min_inclusive": 4
+              },
+              "weight": 10
+            }
+          ]
+        }
       },
-      "spawn_costs": {}
+      "modifier": "overlay"
     },
     "minecraft:visual/sky_color": "#77a8ff"
   }

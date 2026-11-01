@@ -22,6 +22,10 @@ import net.minecraft.resources.Identifier;
  * MaterialInfo (Sheets.*ItemGlintSheet), so the port re-materializes the
  * quads at submit time (CraftmineItemLayerDuck kind set by
  * CuboidItemModelWrapperMixin) with these render types swapped in.
+ *
+ * <p>Task 33: 26.3 bakes a second, "special" glint render type per quad
+ * (FoilType.SPECIAL, the compass/clock decal path); the special sheets are
+ * now covered by matching render types on the *GLINT_SPECIAL pipelines.
  */
 public final class CraftmineGlints {
     public static final Identifier MAP_WON_GLINT = Identifier.withDefaultNamespace("textures/misc/map_won_glint.png");
@@ -35,6 +39,19 @@ public final class CraftmineGlints {
     private static final RenderType LOST_BLOCK_CUTOUT = cutoutGlint(TextureAtlas.LOCATION_BLOCKS, MAP_LOST_GLINT, "craftmine_block_cutout_lost_glint");
     private static final RenderType WON_BLOCK_TRANSLUCENT = translucentGlint(TextureAtlas.LOCATION_BLOCKS, MAP_WON_GLINT, "craftmine_block_translucent_won_glint");
     private static final RenderType LOST_BLOCK_TRANSLUCENT = translucentGlint(TextureAtlas.LOCATION_BLOCKS, MAP_LOST_GLINT, "craftmine_block_translucent_lost_glint");
+    // Task 33: 26.3's MaterialInfo carries a second, "special" glint render
+    // type per quad (Sheets.*GlintSpecialSheet, used for FoilType.SPECIAL -
+    // the compass/clock decal path). Leaving those unmapped meant a special
+    // path kept the vanilla purple glint, so the special variants are
+    // materialized the same way on the *GLINT_SPECIAL pipelines.
+    private static final RenderType WON_ITEM_CUTOUT_SPECIAL = cutoutGlintSpecial(TextureAtlas.LOCATION_ITEMS, MAP_WON_GLINT, "craftmine_item_cutout_won_glint_special");
+    private static final RenderType LOST_ITEM_CUTOUT_SPECIAL = cutoutGlintSpecial(TextureAtlas.LOCATION_ITEMS, MAP_LOST_GLINT, "craftmine_item_cutout_lost_glint_special");
+    private static final RenderType WON_ITEM_TRANSLUCENT_SPECIAL = translucentGlintSpecial(TextureAtlas.LOCATION_ITEMS, MAP_WON_GLINT, "craftmine_item_translucent_won_glint_special");
+    private static final RenderType LOST_ITEM_TRANSLUCENT_SPECIAL = translucentGlintSpecial(TextureAtlas.LOCATION_ITEMS, MAP_LOST_GLINT, "craftmine_item_translucent_lost_glint_special");
+    private static final RenderType WON_BLOCK_CUTOUT_SPECIAL = cutoutGlintSpecial(TextureAtlas.LOCATION_BLOCKS, MAP_WON_GLINT, "craftmine_block_cutout_won_glint_special");
+    private static final RenderType LOST_BLOCK_CUTOUT_SPECIAL = cutoutGlintSpecial(TextureAtlas.LOCATION_BLOCKS, MAP_LOST_GLINT, "craftmine_block_cutout_lost_glint_special");
+    private static final RenderType WON_BLOCK_TRANSLUCENT_SPECIAL = translucentGlintSpecial(TextureAtlas.LOCATION_BLOCKS, MAP_WON_GLINT, "craftmine_block_translucent_won_glint_special");
+    private static final RenderType LOST_BLOCK_TRANSLUCENT_SPECIAL = translucentGlintSpecial(TextureAtlas.LOCATION_BLOCKS, MAP_LOST_GLINT, "craftmine_block_translucent_lost_glint_special");
 
     private CraftmineGlints() {
     }
@@ -46,6 +63,16 @@ public final class CraftmineGlints {
 
     private static RenderType translucentGlint(Identifier sampler0, Identifier glintTexture, String name) {
         RenderSetup renderSetup = RenderSetup.builder(RenderPipelines.ITEM_TRANSLUCENT_GLINT).setOitPipelines(RenderPipelines.OIT_ITEM_GLINT).withTexture("Sampler0", sampler0).withTexture("GlintSampler", glintTexture).setTextureTransform(TextureTransform.GLINT_TEXTURING).useLightmap().useOverlay().affectsCrumbling().sortOnUpload().setOutline(RenderSetup.OutlineProperty.AFFECTS_OUTLINE).createRenderSetup();
+        return CraftmineRenderTypeInvoker.craftmine$create(name, renderSetup);
+    }
+
+    private static RenderType cutoutGlintSpecial(Identifier sampler0, Identifier glintTexture, String name) {
+        RenderSetup renderSetup = RenderSetup.builder(RenderPipelines.ITEM_CUTOUT_GLINT_SPECIAL).withTexture("Sampler0", sampler0).withTexture("GlintSampler", glintTexture).setTextureTransform(TextureTransform.GLINT_TEXTURING).useLightmap().useOverlay().affectsCrumbling().setOutline(RenderSetup.OutlineProperty.AFFECTS_OUTLINE).createRenderSetup();
+        return CraftmineRenderTypeInvoker.craftmine$create(name, renderSetup);
+    }
+
+    private static RenderType translucentGlintSpecial(Identifier sampler0, Identifier glintTexture, String name) {
+        RenderSetup renderSetup = RenderSetup.builder(RenderPipelines.ITEM_TRANSLUCENT_GLINT_SPECIAL).setOitPipelines(RenderPipelines.OIT_ITEM_GLINT_SPECIAL).withTexture("Sampler0", sampler0).withTexture("GlintSampler", glintTexture).setTextureTransform(TextureTransform.GLINT_TEXTURING).useLightmap().useOverlay().affectsCrumbling().sortOnUpload().setOutline(RenderSetup.OutlineProperty.AFFECTS_OUTLINE).createRenderSetup();
         return CraftmineRenderTypeInvoker.craftmine$create(name, renderSetup);
     }
 
@@ -61,6 +88,18 @@ public final class CraftmineGlints {
         }
         if (original == Sheets.translucentBlockItemGlintSheet()) {
             return won ? WON_BLOCK_TRANSLUCENT : LOST_BLOCK_TRANSLUCENT;
+        }
+        if (original == Sheets.cutoutItemGlintSpecialSheet()) {
+            return won ? WON_ITEM_CUTOUT_SPECIAL : LOST_ITEM_CUTOUT_SPECIAL;
+        }
+        if (original == Sheets.translucentItemGlintSpecialSheet()) {
+            return won ? WON_ITEM_TRANSLUCENT_SPECIAL : LOST_ITEM_TRANSLUCENT_SPECIAL;
+        }
+        if (original == Sheets.cutoutBlockItemGlintSpecialSheet()) {
+            return won ? WON_BLOCK_CUTOUT_SPECIAL : LOST_BLOCK_CUTOUT_SPECIAL;
+        }
+        if (original == Sheets.translucentBlockItemGlintSpecialSheet()) {
+            return won ? WON_BLOCK_TRANSLUCENT_SPECIAL : LOST_BLOCK_TRANSLUCENT_SPECIAL;
         }
         return original;
     }

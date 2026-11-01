@@ -41,7 +41,7 @@ public abstract class ItemStackRenderStateLayerMixin implements CraftmineItemLay
         this.craftmine$glintKind = 0;
     }
 
-    @Inject(method = "submit", at = @At(value = "INVOKE", target = "Lnet/minecraft/client/renderer/SubmitNodeCollector;submitItem(Lcom/mojang/blaze3d/vertex/PoseStack;Lnet/minecraft/world/item/ItemDisplayContext;III[ILnet/minecraft/client/resources/model/geometry/ItemQuads;Lnet/minecraft/client/renderer/item/ItemStackRenderState$FoilType;)V"))
+    @Inject(method = "submit", at = @At(value = "HEAD", target = ""))
     private void craftmine$remapGlintQuads(PoseStack poseStack, SubmitNodeCollector submitNodeCollector, int n, int n2, int n3, CallbackInfo callbackInfo) {
         if (this.craftmine$glintKind != 0) {
             this.quads = CraftmineGlints.remapQuads(this.quads, this.craftmine$glintKind);

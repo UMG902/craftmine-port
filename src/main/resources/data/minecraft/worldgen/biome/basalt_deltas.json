@@ -70,42 +70,39 @@
   "temperature": 2.0,
   "attributes": {
     "minecraft:gameplay/natural_mob_spawns": {
-      "spawns_by_category": {
-        "ambient": [],
-        "axolotls": [],
-        "creature": [
-          {
-            "type": "minecraft:strider",
-            "weight": 60,
-            "count": {
-              "type": "minecraft:uniform",
-              "min_inclusive": 1,
-              "max_inclusive": 2
+      "argument": {
+        "spawn_costs": {},
+        "spawns_by_category": {
+          "creature": [
+            {
+              "type": "minecraft:strider",
+              "count": {
+                "type": "minecraft:uniform",
+                "max_inclusive": 2,
+                "min_inclusive": 1
+              },
+              "weight": 60
             }
-          }
-        ],
-        "misc": [],
-        "monster": [
-          {
-            "type": "minecraft:ghast",
-            "weight": 40,
-            "count": 1
-          },
-          {
-            "type": "minecraft:magma_cube",
-            "weight": 100,
-            "count": {
-              "type": "minecraft:uniform",
-              "min_inclusive": 2,
-              "max_inclusive": 5
+          ],
+          "monster": [
+            {
+              "type": "minecraft:ghast",
+              "count": 1,
+              "weight": 40
+            },
+            {
+              "type": "minecraft:magma_cube",
+              "count": {
+                "type": "minecraft:uniform",
+                "max_inclusive": 5,
+                "min_inclusive": 2
+              },
+              "weight": 100
             }
-          }
-        ],
-        "underground_water_creature": [],
-        "water_ambient": [],
-        "water_creature": []
+          ]
+        }
       },
-      "spawn_costs": {}
+      "modifier": "overlay"
     },
     "minecraft:visual/sky_color": "#6eb1ff"
   }

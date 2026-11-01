@@ -339,7 +339,13 @@ public class MineCraftingScreen extends AbstractContainerScreen<MineCraftingMenu
                 graphics.blitSprite(RenderPipelines.GUI_TEXTURED, slotSprite, left + slot.x - 1, top + slot.y - 1, 18, 18);
             }
             for (MineCraftingDrawerSlot drawerSlot : this.menu().getDrawerSlots()) {
-                if (!this.activeDrawerSlots.contains(drawerSlot)
+                // Task 33: the fork's drawer loop also skips !slot.a() (gfq.java:192),
+                // whose czo.a() override folds in the boss/completed gate. This port
+                // split that flag: scroll visibility lives in activeDrawerSlots, the
+                // boss gate in MineCraftingDrawerSlot.isActive(). Skipping only the
+                // scroll half drew the locked-slot sprite on every scrolled-in drawer
+                // slot of a special mine that has no inventory (fork renders none).
+                if (!drawerSlot.isActive() || !this.activeDrawerSlots.contains(drawerSlot)
                     || drawerSlot.couldBeAddedToMine() && !this.menu().isBossMine()) {
                     continue;
                 }
