@@ -9560,7 +9560,8 @@
   "unlocks.unlock.full_diamond.description": "A full suit of diamond armour",
   "unlocks.unlock.full_diamond.hint": "Iron was just the start",
   "craftmine.snapshot.missing": "Install the 25w14craftmine snapshot once in your launcher, then restart - its files provide the CRAFTMINE title logo, splashes and some sounds.",
-  "craftmine.disabled.title": "Craftmine is disabled",
-  "craftmine.disabled.body": "This mod needs the 25w14craftmine snapshot installed: all of its art, sounds and texts load from your own snapshot jar at runtime, and without it the mod has nothing to run on - so it stays off.",
-  "craftmine.disabled.fix": "Install the 25w14craftmine snapshot once in your launcher, then restart the game - its files provide the CRAFTMINE logo, splashes, sounds and the title code rain."
+  "craftmine.disabled.title": "Craftmine is disabled - the 25w14craftmine snapshot is required",
+  "craftmine.disabled.body": "The 25w14craftmine snapshot is absolutely required to run this mod. It is not optional: all of the mod's content - blocks, items, world generation, art, sounds and texts - loads from your own snapshot jar at runtime. Without it there is nothing to run on, the mod stays off, and you cannot continue.",
+  "craftmine.disabled.fix": "Install the 25w14craftmine snapshot once in your launcher (any instance of it creates versions/25w14craftmine), then restart the game. The game cannot be played without it.",
+  "craftmine.disabled.quit": "Quit Game"
 }

@@ -13,6 +13,7 @@ import dev.craftmine.snapshot.CraftmineSnapshotPackSource;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.spongepowered.asm.mixin.Mixin;
+import org.spongepowered.asm.mixin.Unique;
 import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.Inject;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
@@ -22,10 +23,9 @@ import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
  * <ul>
  * <li>pack active - the CRAFTMINE logo (and splashes, sounds) are served
  * from the user's installed 25w14craftmine snapshot jar; log the fact once;</li>
- * <li>pack not active - keep the vanilla logo and show a persistent, clean
- * notice telling the user how to provide it (the "bring your own files"
- * model needs the snapshot present for the CRAFTMINE logo, splashes and
- * some sounds).</li>
+ * <li>pack not active - the mod cannot run (all of its content loads from
+ * the user's own snapshot jar at runtime), so hand off to the full-screen
+ * {@link CraftmineDisabledScreen}, whose only option is quitting the game.</li>
  * </ul>
  */
 @Mixin(TitleScreen.class)
@@ -47,13 +47,36 @@ public abstract class CraftmineTitleScreenMixin extends Screen {
         }
         // Full-screen handoff: without the snapshot the mod has nothing to run
         // on - all of its art, sounds and texts load from the user's own
-        // snapshot jar at runtime. Scheduled on the client thread because
-        // opening a screen from inside TitleScreen.init would re-enter
-        // setScreen while the title screen is still building its widgets.
-        Minecraft.getInstance().execute(() -> {
-            Minecraft minecraft = Minecraft.getInstance();
-            if (minecraft.gui.screen() == (Object) this) {
+        // snapshot jar at runtime. The handoff MUST NOT use execute()/submit():
+        // from the game thread those run the task INLINE (BlockableEventLoop
+        // only queues cross-thread submissions), which re-enters Gui.setScreen
+        // in the middle of TitleScreen.init and races with whatever else is
+        // touching the screen on modded installs. schedule() always queues,
+        // so the swap happens cleanly on the next tick, once the title screen
+        // is fully installed. A few retries cover transient screens (loading
+        // overlays, onboarding, other mods' takeover) before giving up.
+        this.craftmine$scheduleDisabledScreen(Minecraft.getInstance(), 0);
+    }
+
+    @Unique
+    private void craftmine$scheduleDisabledScreen(Minecraft minecraft, int attempt) {
+        minecraft.schedule(() -> {
+            Screen current = minecraft.gui.screen();
+            if (current instanceof CraftmineDisabledScreen) {
+                return; // already showing (a previous attempt won)
+            }
+            if (current instanceof TitleScreen) {
+                LOGGER.info("Craftmine: 25w14craftmine snapshot is required - showing the disabled screen (attempt {})", attempt + 1);
                 minecraft.gui.setScreen(new CraftmineDisabledScreen());
+                return;
+            }
+            // Not settled yet (overlay, onboarding, another mod's screen) -
+            // try again next tick for ~a second before giving up.
+            if (attempt < 11) {
+                LOGGER.debug("Craftmine: deferring disabled screen, current screen: {} (attempt {})", current, attempt + 1);
+                this.craftmine$scheduleDisabledScreen(minecraft, attempt + 1);
+            } else {
+                LOGGER.warn("Craftmine: gave up showing the disabled screen - current screen: {}", current);
             }
         });
     }
